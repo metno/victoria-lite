@@ -1,0 +1,5630 @@
+{
+    "units_equivalent": {
+        "altitude": [
+            "ft",
+            "feet"
+        ],
+        "amount": [
+            "mm",
+            "kg/m²",
+            "kg/m^2",
+            "kg/m2"
+        ],
+        "direction_deg": [
+            "°",
+            "degree",
+            "degrees"
+        ],
+        "direction_rad": [
+            "rad",
+            "radians",
+            "radian"
+        ],
+        "density": [
+            "kg/m³",
+            "kg/m3"
+        ],
+        "diffusion/drift transport/strokes transport": [
+            "m²/s",
+            "meter2 second-1",
+            "m2/s",
+            "m^2/s",
+            "m2 s-1"
+        ],
+        "drag s2": [
+            "W/s²",
+            "W/s2"
+        ],
+        "drag s": [
+            "W/s"
+        ],
+        "drag K/s": [
+            "W K s⁻¹",
+            "W/s/K"
+        ],
+        "energy": [
+            "J/kg",
+            "m^2/s^2",
+            "m2 s-2"
+        ],
+        "flux": [
+            "W/m²",
+            "W/m2",
+            "W/m^2",
+            "W*m^-2",
+            "W m-2"
+        ],
+        "flux wrt time": [
+            "J/m²",
+            "W s/m^2",
+            "J m-2",
+            "J/m^2"
+        ],
+        "fraction/index/type/percentage": [
+            "-",
+            "(0 - 1)",
+            "kg/kg",
+            "m3/m3",
+            "m^3/m^3",
+            "1",
+            "%"
+        ],
+        "frequency": [
+            "s⁻¹",
+            "s-1",
+            "1/s"
+        ],
+        "height/thickness/visibility": [
+            "m",
+            "meter"
+        ],
+        "icing_per_hour": [
+            "cm/h"
+        ],
+        "lightning_density": [
+            "km² day",
+            "km^2 day^1"
+        ],
+        "momentum flux/zonal stress": [
+            "N/m²",
+            "N/m^2",
+            "N*m^-2",
+            "kg/ms2"
+        ],
+        "per mille": [
+            "‰",
+            "1e-3"
+        ],
+        "period": [
+            "s"
+        ],
+        "potential vorticity": [
+            "K m² kg⁻¹ s⁻¹",
+            "K m2 kg-1 s-1"
+        ],
+        "pressure": [
+            "hPa",
+            "Pa"
+        ],
+        "pressure tendency": [
+            "Pa/s",
+            "Pa s-1"
+        ],
+        "spectrum": [
+            "m² s",
+            "m**2 s"
+        ],
+        "speed_ms": [
+            "m/s",
+            "m s-1",
+            "meter second-1"
+        ],
+        "speed_knots": [
+            "knots",
+            "kts"
+        ],
+        "stress": [
+            "N s m⁻²",
+            "N s / m^2"
+        ],
+        "temperature_K": [
+            "K"
+        ],
+        "temperature_C": [
+            "°C",
+            "Celsius",
+            "celsius",
+            "C"
+        ],
+        "unknown": [
+            "?"
+        ],
+        "amount_snow": [
+            "cm"
+        ],
+        "charnock": [
+            "-"
+        ],
+        "cat_height": [
+            "m"
+        ],
+        "cat_height_hfeet": [
+            "hectofeet"
+        ],
+        "cat_index": [
+            "-"
+        ],
+        "contrails_hfeet": [
+            "hectofeet"
+        ],
+        "contrails_index": [
+            "-"
+        ],
+        "direction_deg_from_direction": [
+            "°"
+        ],
+        "direction_deg_to_direction": [
+            "°"
+        ],
+        "drifty": [
+            "-"
+        ],
+        "ducting_sum": [
+            "-"
+        ],
+        "ducting_top_bottom": [
+            "-"
+        ],
+        "EFI": [
+            "-"
+        ],
+        "EFI_(temperature)": [
+            "-"
+        ],
+        "flux_small": [
+            "W/m²",
+            "W/m2",
+            "W/m^2",
+            "W*m^-2",
+            "W m-2"
+        ],
+        "forest": [
+            "-"
+        ],
+        "fraction": [
+            "-"
+        ],
+        "icing": [
+            "m"
+        ],
+        "icing_hfeet": [
+            "hectofeet"
+        ],
+        "index": [
+            "-"
+        ],
+        "lightning": [
+            "-"
+        ],
+        "max_tke": [
+            "m/s"
+        ],
+        "min_w": [
+            "m/s"
+        ],
+        "norshelf_category": [
+            "-"
+        ],
+        "norshelf_depth": [
+            "m"
+        ],
+        "probability": [
+            "-"
+        ],
+        "relative_humidity": [
+            "%"
+        ],
+        "SOT_index": [
+            "-"
+        ],
+        "specific_humidity": [
+            "g/kg"
+        ],
+        "speed_ms_sea": [
+            "m/s"
+        ],
+        "temperature_C_sea": [
+            "°C"
+        ],
+        "temperature_C_diff": [
+            "°C",
+            "celsius"
+        ],
+        "thunder": [
+            "-"
+        ],
+        "thickness_500_1000": [
+            "m"
+        ],
+        "turbulence": [
+            "m/s"
+        ],
+        "type": [
+            "-"
+        ],
+        "vertical_velocity": [
+            "m/s"
+        ],
+        "wave_height": [
+            "m"
+        ],
+        "wave_length": [
+            "m"
+        ],
+        "wind_shear_horizontal": [
+            "100 km/s"
+        ],
+        "wind_shear_vertical": [
+            "1000 ft/s"
+        ],
+        "zeta": [
+            "m",
+            "meter"
+        ],
+        "senorge_rainfall_7day": [
+            "mm"
+        ],
+        "senorge_rainfall_monthly": [
+            "mm"
+        ],
+        "senorge_rainfall_yearly": [
+            "mm"
+        ],
+        "senorge_rainfall_monthly_devn": [
+            "%"
+        ],
+        "senorge_rainfall_yearly_devn": [
+            "%"
+        ],
+        "senorge_temperature": [
+            "°C"
+        ],
+        "senorge_temperature_devn": [
+            "°C"
+        ]
+    },
+    "category": {
+        "altitude": {
+            "Standard_small": {
+                "palette": "Standard",
+                "discrete": true,
+                "intervals": [
+                    0,
+                    500,
+                    1000,
+                    1500,
+                    2000,
+                    2500,
+                    3000,
+                    3500,
+                    4000,
+                    4500,
+                    5000,
+                    999999999
+                ]
+            },
+            "Standard": {
+                "discrete": true,
+                "intervals": [
+                    0,
+                    1000,
+                    2000,
+                    3000,
+                    4000,
+                    5000,
+                    6000,
+                    7000,
+                    8000,
+                    9000,
+                    10000,
+                    999999999
+                ]
+            },
+            "contour_config": {
+                "intervals": [
+                    1000,
+                    1000,
+                    2000
+                ]
+            }
+        },
+        "amount": {
+            "YR_precipitation": {
+                "discrete": true,
+                "gradient": true,
+                "intervals": [
+                    0.5,
+                    1,
+                    2,
+                    4,
+                    6,
+                    10,
+                    15,
+                    20,
+                    25,
+                    30,
+                    40,
+                    50,
+                    999999999
+                ]
+            },
+            "YR_precipitation_1h": {
+                "palette": "YR_precipitation",
+                "discrete": true,
+                "gradient": false,
+                "intervals": [
+                    0.1,
+                    0.2,
+                    0.5,
+                    1,
+                    2,
+                    4,
+                    6,
+                    10,
+                    15,
+                    20,
+                    25,
+                    30,
+                    35,
+                    40
+                ]
+            },
+            "Precipitation_1h": {
+                "palette": "Precipitation_hour",
+                "discrete": true,
+                "gradient": true,
+                "intervals": [
+                    0.1,
+                    0.2,
+                    0.5,
+                    1,
+                    2,
+                    4,
+                    6,
+                    10,
+                    15,
+                    20,
+                    25,
+                    30,
+                    35,
+                    40
+                ]
+            },
+            "Precipitation_3h": {
+                "palette": "Precipitation_hour",
+                "discrete": true,
+                "gradient": true,
+                "intervals": [
+                    0.2,
+                    1,
+                    2,
+                    5,
+                    10,
+                    15,
+                    20,
+                    25,
+                    30,
+                    35,
+                    40,
+                    50
+                ]
+            },
+            "Precipitation_6h": {
+                "palette": "Precipitation_hour",
+                "discrete": true,
+                "gradient": true,
+                "intervals": [
+                    1,
+                    5,
+                    10,
+                    15,
+                    20,
+                    25,
+                    30,
+                    40,
+                    50,
+                    60,
+                    70,
+                    80
+                ]
+            },
+            "Precipitation_12h": {
+                "palette": "Precipitation_hour",
+                "discrete": true,
+                "gradient": true,
+                "intervals": [
+                    1,
+                    5,
+                    10,
+                    20,
+                    30,
+                    40,
+                    50,
+                    60,
+                    70,
+                    80,
+                    90,
+                    100
+                ]
+            },
+            "Precipitation_24h": {
+                "palette": "Precipitation_hour",
+                "discrete": true,
+                "gradient": true,
+                "intervals": [
+                    1,
+                    5,
+                    10,
+                    20,
+                    40,
+                    60,
+                    80,
+                    100,
+                    120,
+                    140,
+                    160,
+                    180
+                ]
+            },
+            "Contour_precipitation_1h_magenta": {
+                "palette": "Contour_magenta",
+                "contour": true,
+                "levels": [
+                    0.1,
+                    0.2,
+                    0.5,
+                    1,
+                    2,
+                    4,
+                    6,
+                    10,
+                    15,
+                    20,
+                    25,
+                    30,
+                    35,
+                    40
+                ],
+                "labels": [
+                    "0.1",
+                    "0.2",
+                    "0.5",
+                    "1",
+                    "2",
+                    "4",
+                    "6",
+                    "10",
+                    "15",
+                    "20",
+                    "25",
+                    "30",
+                    "35",
+                    "40"
+                ]
+            },
+            "Contour_precipitation_3h_magenta": {
+                "palette": "Contour_magenta",
+                "contour": true,
+                "levels": [
+                    0.2,
+                    1,
+                    2,
+                    5,
+                    10,
+                    15,
+                    20,
+                    25,
+                    30,
+                    35,
+                    40,
+                    50
+                ],
+                "labels": [
+                    "0.2",
+                    "1",
+                    "2",
+                    "5",
+                    "10",
+                    "15",
+                    "20",
+                    "25",
+                    "30",
+                    "35",
+                    "40",
+                    "50"
+                ]
+            },
+            "Contour_precipitation_6h_magenta": {
+                "palette": "Contour_magenta",
+                "contour": true,
+                "levels": [
+                    1,
+                    5,
+                    10,
+                    15,
+                    20,
+                    25,
+                    30,
+                    40,
+                    50,
+                    60,
+                    70,
+                    80
+                ]
+            },
+            "Contour_precipitation_12h_magenta": {
+                "palette": "Contour_magenta",
+                "contour": true,
+                "levels": [
+                    1,
+                    5,
+                    10,
+                    20,
+                    30,
+                    40,
+                    50,
+                    60,
+                    70,
+                    80,
+                    90,
+                    100
+                ]
+            },
+            "Contour_precipitation_24h_magenta": {
+                "palette": "Contour_magenta",
+                "contour": true,
+                "levels": [
+                    1,
+                    5,
+                    10,
+                    20,
+                    40,
+                    60,
+                    80,
+                    100,
+                    120,
+                    140,
+                    160,
+                    180
+                ]
+            },
+            "contour_config": {
+                "intervals": [
+                    1,
+                    5,
+                    10
+                ]
+            }
+        },
+        "amount_snow": {
+            "Snow_1h": {
+                "palette": "Traffic_light",
+                "discrete": true,
+                "gradient": true,
+                "intervals": [
+                    0.2,
+                    1.0,
+                    3.0,
+                    5.0,
+                    8.0,
+                    10.0,
+                    15.0,
+                    20.0,
+                    25.0,
+                    30.0,
+                    40.0
+                ]
+            },
+            "Snow_3h": {
+                "palette": "Traffic_light",
+                "discrete": true,
+                "gradient": true,
+                "intervals": [
+                    0.5,
+                    2.0,
+                    5.0,
+                    8.0,
+                    10.0,
+                    15.0,
+                    20.0,
+                    30.0,
+                    40.0,
+                    50.0,
+                    60.0
+                ]
+            },
+            "Snow_6h": {
+                "palette": "Traffic_light",
+                "discrete": true,
+                "gradient": true,
+                "intervals": [
+                    1.0,
+                    3.0,
+                    7.0,
+                    10.0,
+                    15.0,
+                    20.0,
+                    30.0,
+                    40.0,
+                    50.0,
+                    60.0,
+                    70.0
+                ]
+            },
+            "Snow_12h": {
+                "palette": "Traffic_light",
+                "discrete": true,
+                "gradient": true,
+                "intervals": [
+                    1,
+                    5,
+                    10,
+                    15,
+                    20,
+                    30,
+                    40,
+                    50,
+                    60,
+                    70,
+                    80
+                ]
+            },
+            "Snow_24h": {
+                "palette": "Traffic_light",
+                "discrete": true,
+                "gradient": true,
+                "intervals": [
+                    2,
+                    10,
+                    20,
+                    30,
+                    40,
+                    50,
+                    60,
+                    70,
+                    80,
+                    90,
+                    100
+                ]
+            },
+            "contour_config": {
+                "intervals": [
+                    1,
+                    3,
+                    5
+                ]
+            }
+        },
+        "cat_height": {
+            "Standard_pastel": {
+                "discrete": true,
+                "intervals": [
+                    -999999999,
+                    4500,
+                    4750,
+                    5000,
+                    5250,
+                    5500,
+                    5750,
+                    6000,
+                    6250,
+                    6500,
+                    6750,
+                    7000,
+                    7250,
+                    999999999
+                ],
+                "opacity": 63
+            },
+            "Value_black": {
+                "value": true,
+                "palette": [
+                    "black"
+                ],
+                "label_text": "(tostring([value], '%.0f'))"
+            },
+            "Value_blue": {
+                "value": true,
+                "palette": [
+                    "blue"
+                ],
+                "label_text": "(tostring([value], '%.0f'))"
+            },
+            "contour_config": {
+                "intervals": [
+                    2000,
+                    4000,
+                    6000
+                ]
+            }
+        },
+        "cat_height_hfeet": {
+            "Value_black": {
+                "value": true,
+                "palette": [
+                    "black"
+                ],
+                "label_text": "(tostring([value], '%.0f'))"
+            },
+            "Value_blue": {
+                "value": true,
+                "palette": [
+                    "blue"
+                ],
+                "label_text": "(tostring([value], '%.0f'))"
+            },
+            "contour_config": {
+                "intervals": [
+                    100,
+                    200,
+                    400
+                ]
+            }
+        },
+        "cat_index": {
+            "Yellow-brown-red": {
+                "discrete": true,
+                "intervals": [
+                    4,
+                    8,
+                    12,
+                    999999999
+                ],
+                "labels": [
+                    "Light-moderate",
+                    "Moderate",
+                    "Severe-moderate"
+                ]
+            },
+            "Contour_CAT_index_black": {
+                "palette": "Contour_black",
+                "contour": true,
+                "levels": [
+                    4,
+                    8,
+                    12
+                ]
+            },
+            "Value_black": {
+                "value": true,
+                "palette": [
+                    "black"
+                ],
+                "label_text": "(tostring([value], '%.0f'))"
+            },
+            "Value_blue": {
+                "value": true,
+                "palette": [
+                    "blue"
+                ],
+                "label_text": "(tostring([value], '%.0f'))"
+            },
+            "contour_config": {
+                "intervals": [
+                    4,
+                    4,
+                    8
+                ]
+            }
+        },
+        "contrails_hfeet": {
+            "Value_black": {
+                "value": true,
+                "palette": [
+                    "black"
+                ],
+                "label_text": "(tostring([value], '%.0f'))"
+            },
+            "Value_blue": {
+                "value": true,
+                "palette": [
+                    "blue"
+                ],
+                "label_text": "(tostring([value], '%.0f'))"
+            },
+            "contour_config": {
+                "intervals": [
+                    100,
+                    500,
+                    1000
+                ]
+            }
+        },
+        "contrails_index": {
+            "Cyan_color": {
+                "palette": "cyan",
+                "discrete": true,
+                "gradient": false,
+                "intervals": [
+                    0.5,
+                    1.5
+                ],
+                "labels": [
+                    "True"
+                ]
+            },
+            "contour_config": {
+                "intervals": [
+                    0.5,
+                    1,
+                    1
+                ]
+            }
+        },
+        "direction_deg": {
+            "Blue_scale": {
+                "gradient": true,
+                "intervals": [
+                    0,
+                    360
+                ]
+            },
+            "Green_scale": {
+                "gradient": true,
+                "intervals": [
+                    0,
+                    360
+                ]
+            },
+            "contour_config": {
+                "intervals": [
+                    20,
+                    60,
+                    100
+                ]
+            }
+        },
+        "direction_deg_from_direction": {
+            "Symbol_arrow_black": {
+                "symbol": true,
+                "symbol_name": "arrow-up",
+                "symbol_size": 12,
+                "symbol_color": "black"
+            },
+            "Symbol_arrow_magenta": {
+                "symbol": true,
+                "symbol_name": "arrow-up",
+                "symbol_size": 12,
+                "symbol_color": "magenta"
+            },
+            "contour_config": {
+                "intervals": [
+                    20,
+                    60,
+                    100
+                ]
+            }
+        },
+        "direction_deg_to_direction": {
+            "Symbol_arrow_black": {
+                "symbol": true,
+                "symbol_name": "arrow-down",
+                "symbol_size": 12,
+                "symbol_color": "black"
+            },
+            "Symbol_arrow_magenta": {
+                "symbol": true,
+                "symbol_name": "arrow-down",
+                "symbol_size": 12,
+                "symbol_color": "magenta"
+            },
+            "contour_config": {
+                "intervals": [
+                    20,
+                    60,
+                    100
+                ]
+            }
+        },
+        "direction_rad": {
+            "Blue_scale": {
+                "gradient": true,
+                "intervals": [
+                    0,
+                    7
+                ]
+            },
+            "contour_config": {
+                "intervals": [
+                    1,
+                    1,
+                    2
+                ]
+            }
+        },
+        "density": {
+            "Blue": {
+                "discrete": true,
+                "intervals": [
+                    100,
+                    200,
+                    225,
+                    250,
+                    275,
+                    290,
+                    300,
+                    350
+                ]
+            },
+            "contour_config": {
+                "intervals": [
+                    100,
+                    150,
+                    200
+                ]
+            }
+        },
+        "diffusion/drift transport/strokes transport": {
+            "Orange_scale": {
+                "discrete": true,
+                "intervals": [
+                    -4,
+                    -0.1,
+                    -0.01,
+                    -0.005,
+                    0,
+                    0.005,
+                    0.01,
+                    0.1,
+                    4,
+                    999999999
+                ]
+            },
+            "Green_dark_to_light": {
+                "discrete": true,
+                "intervals": [
+                    -2,
+                    -1,
+                    -0.5,
+                    0,
+                    0.5,
+                    1,
+                    2,
+                    3
+                ]
+            },
+            "contour_config": {
+                "intervals": [
+                    0.001,
+                    0.0015,
+                    0.002
+                ]
+            }
+        },
+        "drag s2": {
+            "Lightred": {
+                "discrete": true,
+                "intervals": [
+                    -999999999,
+                    0.001,
+                    0.002,
+                    0.003,
+                    0.004,
+                    0.005
+                ]
+            },
+            "contour_config": {
+                "intervals": [
+                    0.001,
+                    0.0015,
+                    0.002
+                ]
+            }
+        },
+        "drag s": {
+            "Lightred": {
+                "discrete": true,
+                "intervals": [
+                    -999999999,
+                    0.001,
+                    0.002,
+                    0.003,
+                    0.004,
+                    0.005
+                ]
+            },
+            "contour_config": {
+                "intervals": [
+                    0.001,
+                    0.0015,
+                    0.002
+                ]
+            }
+        },
+        "drag K/s": {
+            "Lightred": {
+                "discrete": true,
+                "intervals": [
+                    -999999999,
+                    0.001,
+                    0.002,
+                    0.003,
+                    0.004,
+                    0.005
+                ]
+            },
+            "contour_config": {
+                "intervals": [
+                    0.001,
+                    0.0015,
+                    0.002
+                ]
+            }
+        },
+        "ducting_sum": {
+            "Lightblue": {
+                "palette": "lightblue",
+                "discrete": true,
+                "intervals": [
+                    -999999999,
+                    0
+                ],
+                "labels": [
+                    "Ducting"
+                ]
+            },
+            "contour_config": {
+                "intervals": [
+                    100,
+                    200,
+                    300
+                ],
+                "upper_limit": 0
+            }
+        },
+        "ducting_top_bottom": {
+            "Value_black": {
+                "value": true,
+                "palette": [
+                    "black"
+                ],
+                "label_text": "(tostring([value], '%.0f'))"
+            },
+            "Value_green": {
+                "value": true,
+                "palette": [
+                    "darkgreen"
+                ],
+                "label_text": "(tostring([value], '%.0f'))"
+            },
+            "Value_magenta": {
+                "value": true,
+                "palette": [
+                    "Contour_magenta"
+                ],
+                "label_text": "(tostring([value], '%.0f'))"
+            },
+            "Value_blue": {
+                "value": true,
+                "palette": [
+                    "Contour_blue"
+                ],
+                "label_text": "(tostring([value], '%.0f'))"
+            },
+            "contour_config": {
+                "intervals": [
+                    100,
+                    200,
+                    300
+                ]
+            }
+        },
+        "energy": {
+            "Rainbow (geopotential)": {
+                "palette": "Rainbow",
+                "discrete": true,
+                "intervals": [
+                    -5000,
+                    -4000,
+                    -3000,
+                    -2000,
+                    -1000,
+                    -500,
+                    -250,
+                    0,
+                    50,
+                    100,
+                    250,
+                    500,
+                    1000,
+                    1500,
+                    2000,
+                    2500,
+                    3000,
+                    3500,
+                    4000,
+                    5000,
+                    10000,
+                    50000,
+                    100000,
+                    150000,
+                    200000,
+                    999999999
+                ]
+            },
+            "Rainbow (kinetic energy)": {
+                "palette": "Rainbow",
+                "discrete": true,
+                "intervals": [
+                    -999999999,
+                    0,
+                    2,
+                    5,
+                    7,
+                    10,
+                    12,
+                    15,
+                    17,
+                    20,
+                    25,
+                    30,
+                    35,
+                    40,
+                    45,
+                    50,
+                    55,
+                    60,
+                    65,
+                    70,
+                    75,
+                    80,
+                    85,
+                    90,
+                    95,
+                    100
+                ]
+            },
+            "contour_config": {
+                "intervals": [
+                    1395135013376832359409400000000000000,
+                    13951350133768323594094361500000000000,
+                    1.3951350133768324e+38
+                ]
+            }
+        },
+        "flux": {
+            "Yellow-orange (shortwave flux)": {
+                "palette": "Yellow-orange",
+                "discrete": true,
+                "intervals": [
+                    0,
+                    2,
+                    5,
+                    7,
+                    10,
+                    12,
+                    15,
+                    17,
+                    20,
+                    25,
+                    30
+                ]
+            },
+            "Yellow-orange (longwave flux)": {
+                "palette": "Yellow-orange",
+                "discrete": true,
+                "intervals": [
+                    -999999999,
+                    -250,
+                    -225,
+                    -200,
+                    -175,
+                    -150,
+                    -125,
+                    -100,
+                    -50,
+                    0,
+                    999999999
+                ]
+            },
+            "contour_config": {
+                "intervals": [
+                    2,
+                    5,
+                    10
+                ]
+            }
+        },
+        "flux_small": {
+            "Yellow-orange": {
+                "palette": "Yellow-orange",
+                "discrete": true,
+                "intervals": [
+                    -999999999,
+                    0,
+                    0.1,
+                    0.2,
+                    0.3,
+                    0.4,
+                    0.5,
+                    1.0,
+                    999999999
+                ]
+            },
+            "contour_config": {
+                "intervals": [
+                    0.1,
+                    0.1,
+                    0.1
+                ],
+                "n_decimals": 1
+            }
+        },
+        "flux wrt time": {
+            "Standard_dark": {
+                "discrete": true,
+                "intervals": [
+                    -999999999,
+                    -6000000,
+                    -600000,
+                    -60000,
+                    -6000,
+                    -600,
+                    0,
+                    600,
+                    6000,
+                    60000,
+                    600000,
+                    6000000,
+                    999999999
+                ]
+            },
+            "contour_config": {
+                "intervals": [
+                    600,
+                    1000,
+                    10000
+                ]
+            }
+        },
+        "fraction/index/type/percentage": {
+            "Yellow-red": {
+                "discrete": true,
+                "intervals": [
+                    0.73,
+                    0.9,
+                    0.999,
+                    1
+                ],
+                "labels": [
+                    "Low HTI",
+                    "Moderate HTI",
+                    "High HTI"
+                ]
+            },
+            "Cyan-blue": {
+                "discrete": true,
+                "intervals": [
+                    0.025,
+                    0.12,
+                    1
+                ],
+                "labels": [
+                    "Risk for thunder",
+                    "High risk for thunder"
+                ]
+            },
+            "Yellow-brown-red": {
+                "discrete": true,
+                "intervals": [
+                    4,
+                    8,
+                    12,
+                    25
+                ]
+            },
+            "Nuclear (type)": {
+                "palette": "Nuclear",
+                "discrete": true,
+                "intervals": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9
+                ],
+                "labels": [
+                    "Type 1",
+                    "Type 2",
+                    "Type 3",
+                    "Type 4",
+                    "Type 5",
+                    "Type 6",
+                    "Type 7",
+                    "Type 8"
+                ]
+            },
+            "Ice": {
+                "discrete": true,
+                "intervals": [
+                    0,
+                    0.1,
+                    0.4,
+                    0.7,
+                    0.9,
+                    1.0
+                ]
+            },
+            "Icing_index": {
+                "discrete": true,
+                "intervals": [
+                    1.0,
+                    2.0,
+                    3.0,
+                    4.0,
+                    5.0
+                ],
+                "labels": [
+                    "Trace",
+                    "Feeble",
+                    "Moderate",
+                    "Severe"
+                ]
+            },
+            "FWI": {
+                "palette": "Fire",
+                "discrete": true,
+                "intervals": [
+                    -0.1,
+                    11,
+                    17,
+                    22,
+                    28,
+                    999999999
+                ],
+                "labels": [
+                    "Liten fare",
+                    "Noe fare",
+                    "Fare",
+                    "Stor fare",
+                    "Stor fare"
+                ],
+                "opacity": 55
+            },
+            "FFMC": {
+                "palette": "Fire",
+                "discrete": true,
+                "intervals": [
+                    -0.1,
+                    82.7,
+                    86.1,
+                    89.2,
+                    93.0,
+                    999999999
+                ],
+                "labels": [
+                    "Liten fare",
+                    "Noe fare",
+                    "Fare",
+                    "Stor fare",
+                    "Stor fare"
+                ],
+                "opacity": 55
+            },
+            "DMC": {
+                "palette": "Fire",
+                "discrete": true,
+                "intervals": [
+                    -0.1,
+                    15.7,
+                    27.9,
+                    53.1,
+                    140.7,
+                    999999999
+                ],
+                "labels": [
+                    "Liten fare",
+                    "Noe fare",
+                    "Fare",
+                    "Stor fare",
+                    "Stor fare"
+                ],
+                "opacity": 55
+            },
+            "DC": {
+                "palette": "Fire",
+                "discrete": true,
+                "intervals": [
+                    -0.1,
+                    256.1,
+                    334.1,
+                    450.6,
+                    749.4,
+                    999999999
+                ],
+                "labels": [
+                    "Liten fare",
+                    "Noe fare",
+                    "Fare",
+                    "Stor fare",
+                    "Stor fare"
+                ],
+                "opacity": 55
+            },
+            "ISI": {
+                "palette": "Fire",
+                "discrete": true,
+                "intervals": [
+                    -0.1,
+                    3.2,
+                    5.0,
+                    7.5,
+                    13.4,
+                    999999999
+                ],
+                "labels": [
+                    "Liten fare",
+                    "Noe fare",
+                    "Fare",
+                    "Stor fare",
+                    "Stor fare"
+                ],
+                "opacity": 55
+            },
+            "Lightblue-darkblue": {
+                "discrete": true,
+                "intervals": [
+                    0.001,
+                    0.1,
+                    0.2,
+                    0.3,
+                    0.4,
+                    0.5,
+                    0.6,
+                    0.7,
+                    0.8,
+                    0.9,
+                    0.95,
+                    1
+                ]
+            },
+            "Standard (%)": {
+                "discrete": true,
+                "palette": "Standard",
+                "intervals": [
+                    0.001,
+                    0.01,
+                    0.05,
+                    0.1,
+                    0.5,
+                    1,
+                    5,
+                    10,
+                    15,
+                    20,
+                    30,
+                    40
+                ]
+            },
+            "Standard (type)": {
+                "discrete": true,
+                "palette": "Standard",
+                "intervals": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12
+                ],
+                "labels": [
+                    "Type 1",
+                    "Type 2",
+                    "Type 3",
+                    "Type 4",
+                    "Type 5",
+                    "Type 6",
+                    "Type 7",
+                    "Type 8",
+                    "Type 9",
+                    "Type 10",
+                    "Type 11"
+                ]
+            },
+            "Standard (fraction)": {
+                "discrete": true,
+                "palette": "Standard",
+                "intervals": [
+                    0.1,
+                    0.2,
+                    0.3,
+                    0.4,
+                    0.5,
+                    0.6,
+                    0.7,
+                    0.8,
+                    0.9,
+                    0.95,
+                    1
+                ]
+            },
+            "Drifty_red": {
+                "discrete": true,
+                "intervals": [
+                    0,
+                    100
+                ]
+            },
+            "Drifty_blue": {
+                "gradient": true,
+                "intervals": [
+                    0,
+                    100
+                ]
+            },
+            "Drifty_green": {
+                "gradient": true,
+                "intervals": [
+                    0,
+                    100
+                ]
+            },
+            "Red_shade": {
+                "gradient": true,
+                "intervals": [
+                    0.9,
+                    1
+                ],
+                "labels": [
+                    "0.9 – 1"
+                ]
+            },
+            "Yellow_shade": {
+                "gradient": true,
+                "intervals": [
+                    0.1,
+                    1
+                ],
+                "labels": [
+                    "0.1 – 1"
+                ]
+            },
+            "Yellow-brown_shade": {
+                "gradient": true,
+                "intervals": [
+                    0.1,
+                    1
+                ],
+                "labels": [
+                    "0.1 – 1"
+                ]
+            },
+            "contour_config": {
+                "intervals": [
+                    0.2,
+                    0.4,
+                    0.6
+                ],
+                "n_decimals": 1
+            }
+        },
+        "fraction": {
+            "Ice": {
+                "discrete": true,
+                "intervals": [
+                    0,
+                    0.1,
+                    0.4,
+                    0.7,
+                    0.9,
+                    1.0
+                ]
+            },
+            "Lightblue-darkblue": {
+                "discrete": true,
+                "intervals": [
+                    0.001,
+                    0.1,
+                    0.2,
+                    0.3,
+                    0.4,
+                    0.5,
+                    0.6,
+                    0.7,
+                    0.8,
+                    0.9,
+                    0.95,
+                    1
+                ]
+            },
+            "Standard (fraction)": {
+                "palette": "Standard",
+                "discrete": true,
+                "intervals": [
+                    0.1,
+                    0.2,
+                    0.3,
+                    0.4,
+                    0.5,
+                    0.6,
+                    0.7,
+                    0.8,
+                    0.9,
+                    0.95,
+                    1
+                ]
+            },
+            "Gray_shade": {
+                "gradient": true,
+                "intervals": [
+                    0.1,
+                    1
+                ],
+                "labels": [
+                    "0.1 – 1"
+                ]
+            },
+            "Light_gray_shade": {
+                "gradient": true,
+                "intervals": [
+                    0.1,
+                    1
+                ],
+                "labels": [
+                    "0.1 – 1"
+                ]
+            },
+            "Red_shade": {
+                "gradient": true,
+                "intervals": [
+                    0.9,
+                    1
+                ],
+                "labels": [
+                    "0.9 – 1"
+                ]
+            },
+            "Yellow_shade": {
+                "gradient": true,
+                "intervals": [
+                    0.1,
+                    1
+                ],
+                "labels": [
+                    "0.1 – 1"
+                ]
+            },
+            "Yellow-brown_shade": {
+                "gradient": true,
+                "intervals": [
+                    0.1,
+                    1
+                ],
+                "labels": [
+                    "0.1 – 1"
+                ]
+            },
+            "Black_shade": {
+                "gradient": true,
+                "intervals": [
+                    0.1,
+                    1
+                ],
+                "labels": [
+                    "0.1 – 1"
+                ]
+            },
+            "Green_shade": {
+                "gradient": true,
+                "intervals": [
+                    0.1,
+                    1
+                ],
+                "labels": [
+                    "0.1 – 1"
+                ]
+            },
+            "contour_config": {
+                "intervals": [
+                    0.1,
+                    0.3,
+                    0.5
+                ],
+                "n_decimals": 1
+            }
+        },
+        "charnock": {
+            "Charnock": {
+                "palette": "Standard",
+                "discrete": true,
+                "intervals": [
+                    -999999999,
+                    0.01,
+                    0.013,
+                    0.016,
+                    0.019,
+                    0.022,
+                    0.025,
+                    0.028,
+                    999999999
+                ]
+            },
+            "Charnock_shade": {
+                "palette": "Orange_red",
+                "gradient": true,
+                "intervals": [
+                    0.01,
+                    0.028
+                ],
+                "labels": [
+                    "0.01 – 0.028"
+                ]
+            },
+            "contour_config": {
+                "intervals": [
+                    0.003,
+                    0.005,
+                    0.01
+                ],
+                "n_decimals": 3
+            }
+        },
+        "type": {
+            "Nuclear (type)": {
+                "palette": "Nuclear",
+                "discrete": true,
+                "intervals": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9
+                ],
+                "labels": [
+                    "Type 1",
+                    "Type 2",
+                    "Type 3",
+                    "Type 4",
+                    "Type 5",
+                    "Type 6",
+                    "Type 7",
+                    "Type 8"
+                ]
+            },
+            "Standard (type)": {
+                "palette": "Standard",
+                "discrete": true,
+                "intervals": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12
+                ],
+                "labels": [
+                    "Type 1",
+                    "Type 2",
+                    "Type 3",
+                    "Type 4",
+                    "Type 5",
+                    "Type 6",
+                    "Type 7",
+                    "Type 8",
+                    "Type 9",
+                    "Type 10",
+                    "Type 11"
+                ]
+            },
+            "contour_config": {
+                "intervals": [
+                    1,
+                    2,
+                    4
+                ]
+            }
+        },
+        "forest": {
+            "FWI": {
+                "palette": "Fire",
+                "discrete": true,
+                "intervals": [
+                    -0.1,
+                    11,
+                    17,
+                    22,
+                    28,
+                    999999999
+                ],
+                "labels": [
+                    "Liten fare",
+                    "Noe fare",
+                    "Fare",
+                    "Stor fare",
+                    "Stor fare"
+                ],
+                "opacity": 55
+            },
+            "FFMC": {
+                "palette": "Fire",
+                "discrete": true,
+                "intervals": [
+                    -0.1,
+                    82.7,
+                    86.1,
+                    89.2,
+                    93.0,
+                    999999999
+                ],
+                "labels": [
+                    "Liten fare",
+                    "Noe fare",
+                    "Fare",
+                    "Stor fare",
+                    "Stor fare"
+                ],
+                "opacity": 55
+            },
+            "DMC": {
+                "palette": "Fire",
+                "discrete": true,
+                "intervals": [
+                    -0.1,
+                    15.7,
+                    27.9,
+                    53.1,
+                    140.7,
+                    999999999
+                ],
+                "labels": [
+                    "Liten fare",
+                    "Noe fare",
+                    "Fare",
+                    "Stor fare",
+                    "Stor fare"
+                ],
+                "opacity": 55
+            },
+            "DC": {
+                "palette": "Fire",
+                "discrete": true,
+                "intervals": [
+                    -0.1,
+                    256.1,
+                    334.1,
+                    450.6,
+                    749.4,
+                    999999999
+                ],
+                "labels": [
+                    "Liten fare",
+                    "Noe fare",
+                    "Fare",
+                    "Stor fare",
+                    "Stor fare"
+                ],
+                "opacity": 55
+            },
+            "ISI": {
+                "palette": "Fire",
+                "discrete": true,
+                "intervals": [
+                    -0.1,
+                    3.2,
+                    5.0,
+                    7.5,
+                    13.4,
+                    999999999
+                ],
+                "labels": [
+                    "Liten fare",
+                    "Noe fare",
+                    "Fare",
+                    "Stor fare",
+                    "Stor fare"
+                ],
+                "opacity": 55
+            },
+            "contour_config": {
+                "intervals": [
+                    1,
+                    5,
+                    10
+                ]
+            }
+        },
+        "thunder": {
+            "Yellow-red": {
+                "discrete": true,
+                "intervals": [
+                    0.73,
+                    0.9,
+                    0.999,
+                    1
+                ],
+                "labels": [
+                    "Low HTI",
+                    "Moderate HTI",
+                    "High HTI"
+                ]
+            },
+            "Cyan-blue": {
+                "discrete": true,
+                "intervals": [
+                    0.025,
+                    0.12,
+                    1
+                ],
+                "labels": [
+                    "Risk for thunder",
+                    "High risk for thunder"
+                ]
+            },
+            "Standard (thunder)": {
+                "palette": "Standard",
+                "from_number": 1,
+                "discrete": true,
+                "intervals": [
+                    0.025,
+                    0.05,
+                    0.075,
+                    0.1,
+                    0.125,
+                    0.15,
+                    0.175,
+                    0.2,
+                    0.225,
+                    0.25
+                ]
+            },
+            "contour_config": {
+                "intervals": [
+                    0.025,
+                    0.05,
+                    0.1
+                ],
+                "n_decimals": 3
+            }
+        },
+        "drifty": {
+            "Drifty_red": {
+                "discrete": true,
+                "intervals": [
+                    0,
+                    100
+                ]
+            },
+            "Drifty_blue": {
+                "gradient": true,
+                "intervals": [
+                    0,
+                    100
+                ]
+            },
+            "Drifty_green": {
+                "gradient": true,
+                "intervals": [
+                    0,
+                    100
+                ]
+            },
+            "contour_config": {
+                "intervals": [
+                    10,
+                    25,
+                    50
+                ]
+            }
+        },
+        "icing": {
+            "Icing_index_max": {
+                "discrete": true,
+                "intervals": [
+                    1.5,
+                    2.5,
+                    3.5,
+                    4.5
+                ],
+                "labels": [
+                    "Feeble",
+                    "Moderate",
+                    "Severe"
+                ]
+            },
+            "Contour_icing_index_max": {
+                "palette": "Contour_black",
+                "contour": true,
+                "levels": [
+                    1.5,
+                    2.5,
+                    3.5,
+                    4.5
+                ],
+                "labels": [
+                    1.5,
+                    2.5,
+                    3.5,
+                    4.5
+                ]
+            },
+            "Blue-white": {
+                "discrete": true,
+                "intervals": [
+                    -999999999,
+                    50,
+                    100,
+                    150,
+                    200,
+                    300,
+                    400,
+                    500,
+                    1000,
+                    1500,
+                    2000,
+                    3000,
+                    5000,
+                    999999999
+                ]
+            },
+            "Value_blue": {
+                "value": true,
+                "palette": [
+                    "blue"
+                ],
+                "label_text": "(tostring([value], '%.0f'))"
+            },
+            "Value_black": {
+                "value": true,
+                "palette": [
+                    "black"
+                ],
+                "label_text": "(tostring([value], '%.0f'))"
+            },
+            "Value_magenta": {
+                "value": true,
+                "palette": [
+                    "magenta"
+                ],
+                "label_text": "(tostring([value], '%.0f'))"
+            },
+            "contour_config": {
+                "intervals": [
+                    1,
+                    1,
+                    2
+                ]
+            }
+        },
+        "icing_hfeet": {
+            "Value_blue": {
+                "value": true,
+                "palette": [
+                    "blue"
+                ],
+                "label_text": "(tostring([value], '%.0f'))"
+            },
+            "Value_black": {
+                "value": true,
+                "palette": [
+                    "black"
+                ],
+                "label_text": "(tostring([value], '%.0f'))"
+            },
+            "contour_config": {
+                "intervals": [
+                    20,
+                    50,
+                    50
+                ]
+            }
+        },
+        "index": {
+            "Yellow-brown-red": {
+                "discrete": true,
+                "intervals": [
+                    4,
+                    8,
+                    12,
+                    25
+                ]
+            },
+            "Ice": {
+                "discrete": true,
+                "intervals": [
+                    0,
+                    0.1,
+                    0.4,
+                    0.7,
+                    0.9,
+                    1.0
+                ]
+            },
+            "Icing_index": {
+                "discrete": true,
+                "intervals": [
+                    1.0,
+                    2.0,
+                    3.0,
+                    4.0,
+                    5.0
+                ],
+                "labels": [
+                    "Trace",
+                    "Feeble",
+                    "Moderate",
+                    "Severe"
+                ]
+            },
+            "Red_color": {
+                "palette": "red",
+                "discrete": true,
+                "intervals": [
+                    0.5,
+                    1.5
+                ],
+                "labels": [
+                    "True"
+                ]
+            },
+            "Magenta_color": {
+                "palette": "magenta",
+                "discrete": true,
+                "intervals": [
+                    0.5,
+                    1.5
+                ],
+                "labels": [
+                    "True"
+                ]
+            },
+            "Alarm_red_color": {
+                "palette": "alarm_red",
+                "discrete": true,
+                "intervals": [
+                    0.5,
+                    1.5
+                ],
+                "labels": [
+                    "True"
+                ]
+            }
+        },
+        "SOT_index": {
+            "Contour_magenta": {
+                "palette": "Contour_magenta",
+                "contour": true,
+                "levels": [
+                    0,
+                    1,
+                    2,
+                    5,
+                    8
+                ],
+                "labels": [
+                    0,
+                    1,
+                    2,
+                    5,
+                    8
+                ]
+            },
+            "Contour_black": {
+                "palette": "Contour_black",
+                "contour": true,
+                "levels": [
+                    0,
+                    1,
+                    2,
+                    5,
+                    8
+                ],
+                "labels": [
+                    0,
+                    1,
+                    2,
+                    5,
+                    8
+                ]
+            },
+            "Contour_blue": {
+                "palette": "Contour_blue",
+                "contour": true,
+                "levels": [
+                    0,
+                    1,
+                    2,
+                    5,
+                    8
+                ],
+                "labels": [
+                    0,
+                    1,
+                    2,
+                    5,
+                    8
+                ]
+            },
+            "Contour_red": {
+                "palette": "Contour_red",
+                "contour": true,
+                "levels": [
+                    0,
+                    1,
+                    2,
+                    5,
+                    8
+                ],
+                "labels": [
+                    0,
+                    1,
+                    2,
+                    5,
+                    8
+                ]
+            },
+            "Contour_green": {
+                "palette": "Contour_green",
+                "contour": true,
+                "levels": [
+                    0,
+                    1,
+                    2,
+                    5,
+                    8
+                ],
+                "labels": [
+                    0,
+                    1,
+                    2,
+                    5,
+                    8
+                ]
+            },
+            "SOT (index)": {
+                "discrete": true,
+                "palette": "SOT",
+                "intervals": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    5,
+                    8,
+                    999999999
+                ]
+            },
+            "contour_config": {
+                "intervals": [
+                    1,
+                    1,
+                    1
+                ]
+            }
+        },
+        "EFI": {
+            "EFI": {
+                "discrete": true,
+                "palette": "EFI",
+                "intervals": [
+                    0.3,
+                    0.5,
+                    0.6,
+                    0.7,
+                    0.8,
+                    0.9,
+                    1.01
+                ],
+                "labels": [
+                    "0.3 - 0.5",
+                    "0.5 - 0.6",
+                    "0.6 - 0.7",
+                    "0.7 - 0.8",
+                    "0.8 - 0.9",
+                    "0.9 - 1.0"
+                ]
+            },
+            "EFI_Contour": {
+                "palette": "Contour_blue",
+                "contour": true,
+                "levels": [
+                    0.3,
+                    0.5,
+                    0.6,
+                    0.7,
+                    0.8,
+                    0.9,
+                    1.0
+                ]
+            },
+            "contour_config": {
+                "intervals": [
+                    0.1,
+                    0.1,
+                    0.2
+                ],
+                "n_decimals": 1
+            }
+        },
+        "EFI_(temperature)": {
+            "EFI temperature": {
+                "discrete": true,
+                "palette": "EFI_temperature",
+                "intervals": [
+                    -1.0,
+                    -0.9,
+                    -0.8,
+                    -0.7,
+                    -0.6,
+                    -0.5,
+                    -0.3,
+                    0.3,
+                    0.5,
+                    0.6,
+                    0.7,
+                    0.8,
+                    0.9,
+                    1.01
+                ],
+                "labels": [
+                    "-1.0 - -0.9",
+                    "-0.9 - -0.8",
+                    "-0.8 - -0.7",
+                    "-0.7 - -0.6",
+                    "-0.6 - -0.5",
+                    "-0.5 - -0.3",
+                    "-0.3 - 0.3",
+                    "0.3 - 0.5",
+                    "0.5 - 0.6",
+                    "0.6 - 0.7",
+                    "0.7 - 0.8",
+                    "0.8 - 0.9",
+                    "0.9 - 1.0"
+                ],
+                "skip_interval": [
+                    6
+                ]
+            },
+            "EFI_Contour": {
+                "palette": "Contour_blue",
+                "contour": true,
+                "levels": [
+                    -1.0,
+                    -0.9,
+                    -0.8,
+                    -0.7,
+                    -0.6,
+                    -0.5,
+                    -0.3,
+                    0.3,
+                    0.5,
+                    0.6,
+                    0.7,
+                    0.8,
+                    0.9,
+                    1.0
+                ]
+            },
+            "contour_config": {
+                "intervals": [
+                    0.1,
+                    0.1,
+                    0.2
+                ],
+                "n_decimals": 1
+            }
+        },
+        "frequency": {
+            "Standard_pastel": {
+                "discrete": true,
+                "intervals": [
+                    0,
+                    0.0025,
+                    0.005,
+                    0.0075,
+                    0.01,
+                    0.0125,
+                    0.015,
+                    0.0175,
+                    0.02,
+                    0.0225,
+                    0.025,
+                    0.03,
+                    0.035
+                ]
+            },
+            "No_green_large": {
+                "discrete": true,
+                "intervals": [
+                    0,
+                    0.04,
+                    0.06,
+                    0.08,
+                    0.1,
+                    0.12,
+                    0.14,
+                    0.16,
+                    0.18,
+                    0.2,
+                    999999999
+                ]
+            },
+            "contour_config": {
+                "intervals": [
+                    0.01,
+                    0.015,
+                    0.02
+                ],
+                "n_decimals": 2
+            }
+        },
+        "height/thickness/visibility": {
+            "Significant_wave_height": {
+                "discrete": true,
+                "intervals": [
+                    -999999999,
+                    0.5,
+                    1,
+                    1.5,
+                    2,
+                    2.5,
+                    3,
+                    3.5,
+                    4,
+                    4.5,
+                    5,
+                    5.5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    12,
+                    14
+                ]
+            },
+            "Sea_state_purple": {
+                "palette": "Douglas_sea_scale",
+                "discrete": true,
+                "intervals": [
+                    0,
+                    0.1,
+                    0.5,
+                    1.25,
+                    2.5,
+                    4,
+                    6,
+                    9,
+                    14,
+                    999999999
+                ],
+                "labels": [
+                    "Calm (0.0 - 0.1 m)",
+                    "Smooth (0.1 - 0.5 m)",
+                    "Slight (0.5 - 1.25 m)",
+                    "Moderate (1.25 - 2.5 m)",
+                    "Rough (2.5 - 4 m)",
+                    "Very rough (4 - 6 m)",
+                    "High (6 - 9 m)",
+                    "Very high (9 - 14 m)",
+                    "Phenomenal (> 14 m)"
+                ]
+            },
+            "Gray-yellow-purple": {
+                "discrete": true,
+                "intervals": [
+                    2.5,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    999999999
+                ]
+            },
+            "Precipitation": {
+                "discrete": true,
+                "intervals": [
+                    0.01,
+                    0.05,
+                    0.1,
+                    0.4,
+                    0.7,
+                    1,
+                    2,
+                    3,
+                    5
+                ]
+            },
+            "Blue-white": {
+                "discrete": true,
+                "intervals": [
+                    -999999999,
+                    50,
+                    100,
+                    150,
+                    200,
+                    300,
+                    400,
+                    500,
+                    1000,
+                    1500,
+                    2000,
+                    3000,
+                    5000,
+                    999999999
+                ]
+            },
+            "Red": {
+                "palette": "White-red",
+                "discrete": true,
+                "intervals": [
+                    -999999999,
+                    200,
+                    400,
+                    600,
+                    800,
+                    1000,
+                    1200,
+                    1400,
+                    1600,
+                    1800,
+                    2000,
+                    2200,
+                    2400,
+                    999999999
+                ]
+            },
+            "Topocolor": {
+                "discrete": true,
+                "intervals": [
+                    0.5,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    8,
+                    10,
+                    12
+                ],
+                "opacity": 63
+            },
+            "Standard_pastel": {
+                "discrete": true,
+                "intervals": [
+                    -999999999,
+                    4000,
+                    4250,
+                    4500,
+                    4750,
+                    5000,
+                    5250,
+                    5500,
+                    5750,
+                    6000,
+                    6500,
+                    7000,
+                    999999999
+                ],
+                "opacity": 63
+            },
+            "Gray": {
+                "discrete": true,
+                "intervals": [
+                    -999999999,
+                    0.5,
+                    1,
+                    1.5,
+                    2,
+                    2.5,
+                    3,
+                    3.5,
+                    4,
+                    4.5,
+                    5,
+                    5.5,
+                    6,
+                    6.5
+                ],
+                "opacity": 63
+            },
+            "No_green": {
+                "discrete": true,
+                "intervals": [
+                    -3,
+                    -0.8,
+                    -0.7,
+                    -0.6,
+                    -0.5,
+                    -0.4,
+                    -0.3,
+                    -0.2,
+                    -0.1,
+                    0,
+                    0.1,
+                    0.2,
+                    0.3,
+                    0.4,
+                    0.5,
+                    0.6,
+                    3
+                ],
+                "opacity": 63
+            },
+            "No_green_large": {
+                "discrete": true,
+                "intervals": [
+                    0,
+                    100,
+                    200,
+                    300,
+                    400,
+                    500,
+                    600,
+                    700,
+                    800,
+                    900,
+                    1000,
+                    2000,
+                    3000,
+                    4000,
+                    5000,
+                    6000,
+                    7000,
+                    8000,
+                    9000,
+                    10000
+                ]
+            },
+            "contour_config": {
+                "intervals": [
+                    1000,
+                    3000,
+                    5000
+                ]
+            }
+        },
+        "zeta": {
+            "No_green": {
+                "discrete": true,
+                "intervals": [
+                    -3,
+                    -0.8,
+                    -0.7,
+                    -0.6,
+                    -0.5,
+                    -0.4,
+                    -0.3,
+                    -0.2,
+                    -0.1,
+                    0,
+                    0.1,
+                    0.2,
+                    0.3,
+                    0.4,
+                    0.5,
+                    0.6,
+                    3
+                ],
+                "opacity": 63
+            },
+            "Contour_zeta": {
+                "palette": "Contour_black",
+                "contour": true,
+                "levels": [
+                    -3,
+                    -0.8,
+                    -0.7,
+                    -0.6,
+                    -0.5,
+                    -0.4,
+                    -0.3,
+                    -0.2,
+                    -0.1,
+                    0,
+                    0.1,
+                    0.2,
+                    0.3,
+                    0.4,
+                    0.5,
+                    0.6,
+                    3
+                ],
+                "n_decimals": 1
+            },
+            "contour_config": {
+                "intervals": [
+                    0.1,
+                    0.1,
+                    0.5
+                ],
+                "n_decimals": 1
+            }
+        },
+        "wave_length": {
+            "Standard_pastel": {
+                "discrete": true,
+                "intervals": [
+                    -999999999,
+                    20,
+                    40,
+                    60,
+                    80,
+                    100,
+                    120,
+                    140,
+                    160,
+                    180,
+                    200,
+                    220,
+                    999999999
+                ],
+                "opacity": 63
+            },
+            "Blue-white": {
+                "discrete": true,
+                "intervals": [
+                    -999999999,
+                    30,
+                    40,
+                    50,
+                    60,
+                    70,
+                    80,
+                    90,
+                    100,
+                    200,
+                    300,
+                    400,
+                    500,
+                    999999999
+                ]
+            },
+            "No_green_large": {
+                "discrete": true,
+                "intervals": [
+                    0,
+                    10,
+                    20,
+                    30,
+                    40,
+                    50,
+                    60,
+                    70,
+                    80,
+                    90,
+                    100,
+                    120,
+                    140,
+                    160,
+                    180,
+                    200,
+                    999999999
+                ]
+            },
+            "Red": {
+                "palette": "White-red",
+                "discrete": true,
+                "intervals": [
+                    -999999999,
+                    20,
+                    40,
+                    60,
+                    80,
+                    100,
+                    120,
+                    140,
+                    160,
+                    180,
+                    200,
+                    220,
+                    240,
+                    999999999
+                ]
+            },
+            "contour_config": {
+                "intervals": [
+                    20,
+                    50,
+                    100
+                ]
+            }
+        },
+        "icing_per_hour": {
+            "Icing_per_hour": {
+                "palette": "Icing_per_hour",
+                "discrete": true,
+                "intervals": [
+                    0.05,
+                    0.5,
+                    1.34,
+                    999999999
+                ],
+                "labels": [
+                    "Light",
+                    "Moderate",
+                    "Severe"
+                ]
+            },
+            "Contour_icing_per_hour": {
+                "palette": "Contour_black",
+                "contour": true,
+                "levels": [
+                    0.05,
+                    0.5,
+                    1.34
+                ],
+                "n_decimals": 2
+            },
+            "Yellow_orange_icing": {
+                "palette": "Yellow_Orange_icing",
+                "discrete": true,
+                "intervals": [
+                    0.5,
+                    1.34,
+                    999999999
+                ],
+                "labels": [
+                    "Moderate icing",
+                    "Severe icing"
+                ]
+            },
+            "Blue_Red": {
+                "palette": "Temperature_2_m",
+                "discrete": true,
+                "intervals": [
+                    0.05,
+                    0.1,
+                    0.15,
+                    0.2,
+                    0.25,
+                    0.3,
+                    0.35,
+                    0.4,
+                    0.45,
+                    0.5,
+                    0.55,
+                    0.6,
+                    0.65,
+                    0.7,
+                    0.75,
+                    0.8,
+                    0.85,
+                    0.9,
+                    0.95,
+                    1.0
+                ]
+            },
+            "Green_orange": {
+                "palette": "Wind_gust",
+                "discrete": true,
+                "intervals": [
+                    0.1,
+                    0.2,
+                    0.3,
+                    0.4,
+                    0.5,
+                    0.6,
+                    0.7,
+                    0.8,
+                    0.9,
+                    1.0
+                ]
+            },
+            "Icing_haline": {
+                "palette": "haline",
+                "gradient": true,
+                "interval": 0.05,
+                "min_value": 0.05,
+                "open_interval_upper": true,
+                "total_colors": 27
+            },
+            "contour_config": {
+                "intervals": [
+                    0.05,
+                    0.1,
+                    0.5
+                ],
+                "n_decimals": 2
+            }
+        },
+        "max_tke": {
+            "Light gray": {
+                "palette": "lightgray",
+                "discrete": true,
+                "intervals": [
+                    2,
+                    999999999
+                ]
+            },
+            "Orange": {
+                "palette": "orange",
+                "discrete": true,
+                "intervals": [
+                    3.5,
+                    999999999
+                ]
+            },
+            "contour_config": {
+                "intervals": [
+                    1,
+                    3,
+                    5
+                ],
+                "lower_limit": 2,
+                "upper_limit": 3
+            }
+        },
+        "min_w": {
+            "Green": {
+                "palette": "green",
+                "discrete": true,
+                "intervals": [
+                    -3,
+                    -1.75
+                ]
+            },
+            "Red": {
+                "palette": "red",
+                "discrete": true,
+                "intervals": [
+                    -999999999,
+                    -3
+                ]
+            },
+            "contour_config": {
+                "intervals": [
+                    1.25,
+                    3,
+                    5
+                ],
+                "n_decimals": 2,
+                "lower_limit": -3
+            }
+        },
+        "norshelf_depth": {
+            "Sonic_depth": {
+                "discrete": true,
+                "intervals": [
+                    -999999999,
+                    -300,
+                    -280,
+                    -260,
+                    -240,
+                    -220,
+                    -200,
+                    -180,
+                    -160,
+                    -140,
+                    -120,
+                    -100,
+                    -80,
+                    -60,
+                    -40,
+                    -20,
+                    0
+                ]
+            },
+            "contour_config": {
+                "intervals": [
+                    20,
+                    40,
+                    60
+                ]
+            }
+        },
+        "norshelf_category": {
+            "Profile_category": {
+                "discrete": true,
+                "intervals": [
+                    -6,
+                    -5,
+                    -4,
+                    -3,
+                    -2,
+                    -1,
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6
+                ],
+                "labels": [
+                    "-5",
+                    "-4",
+                    "-3",
+                    "-2",
+                    "-1",
+                    "0",
+                    "1",
+                    "2",
+                    "3",
+                    "4",
+                    "5",
+                    "6"
+                ]
+            },
+            "contour_config": {
+                "intervals": [
+                    1,
+                    1,
+                    1
+                ]
+            }
+        },
+        "wave_height": {
+            "Sea_state_blue_yellow": {
+                "palette": "No_green_small",
+                "discrete": true,
+                "intervals": [
+                    0,
+                    0.1,
+                    0.5,
+                    1.25,
+                    2.5,
+                    4,
+                    6,
+                    9,
+                    14,
+                    999999999
+                ],
+                "labels": [
+                    "Calm (0.0 - 0.1 m)",
+                    "Smooth (0.1 - 0.5 m)",
+                    "Slight (0.5 - 1.25 m)",
+                    "Moderate (1.25 - 2.5 m)",
+                    "Rough (2.5 - 4 m)",
+                    "Very rough (4 - 6 m)",
+                    "High (6 - 9 m)",
+                    "Very high (9 - 14 m)",
+                    "Phenomenal (> 14 m)"
+                ]
+            },
+            "Sea_state_purple": {
+                "palette": "Douglas_sea_scale",
+                "discrete": true,
+                "intervals": [
+                    0,
+                    0.1,
+                    0.5,
+                    1.25,
+                    2.5,
+                    4,
+                    6,
+                    9,
+                    14,
+                    999999999
+                ],
+                "labels": [
+                    "Calm (0.0 - 0.1 m)",
+                    "Smooth (0.1 - 0.5 m)",
+                    "Slight (0.5 - 1.25 m)",
+                    "Moderate (1.25 - 2.5 m)",
+                    "Rough (2.5 - 4 m)",
+                    "Very rough (4 - 6 m)",
+                    "High (6 - 9 m)",
+                    "Very high (9 - 14 m)",
+                    "Phenomenal (> 14 m)"
+                ]
+            },
+            "Significant_wave_height": {
+                "discrete": true,
+                "intervals": [
+                    -999999999,
+                    0.5,
+                    1,
+                    1.5,
+                    2,
+                    2.5,
+                    3,
+                    3.5,
+                    4,
+                    4.5,
+                    5,
+                    5.5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    12,
+                    14
+                ]
+            },
+            "Gray-yellow-purple": {
+                "discrete": true,
+                "intervals": [
+                    2.5,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    999999999
+                ]
+            },
+            "Contour_sea_state_black": {
+                "palette": "Contour_black",
+                "contour": true,
+                "levels": [
+                    0.1,
+                    0.5,
+                    1.25,
+                    2.5,
+                    4,
+                    6,
+                    9,
+                    14
+                ],
+                "labels": [
+                    0.1,
+                    0.5,
+                    1.25,
+                    2.5,
+                    4,
+                    6,
+                    9,
+                    14
+                ]
+            },
+            "Contour_sea_state_magenta": {
+                "palette": "Contour_magenta",
+                "contour": true,
+                "levels": [
+                    0.1,
+                    0.5,
+                    1.25,
+                    2.5,
+                    4,
+                    6,
+                    9,
+                    14
+                ],
+                "labels": [
+                    0.1,
+                    0.5,
+                    1.25,
+                    2.5,
+                    4,
+                    6,
+                    9,
+                    14
+                ]
+            },
+            "contour_config": {
+                "intervals": [
+                    1,
+                    1,
+                    5
+                ]
+            }
+        },
+        "lightning": {
+            "Yellow-orange": {
+                "discrete": true,
+                "intervals": [
+                    1,
+                    5,
+                    10,
+                    25,
+                    100,
+                    250,
+                    500
+                ]
+            },
+            "Contour_yellow-orange_black": {
+                "palette": "Contour_black",
+                "contour": true,
+                "levels": [
+                    1,
+                    5,
+                    10,
+                    25,
+                    100,
+                    250,
+                    500
+                ],
+                "labels": [
+                    1,
+                    5,
+                    10,
+                    25,
+                    100,
+                    250,
+                    500
+                ]
+            },
+            "contour_config": {
+                "intervals": [
+                    10,
+                    50,
+                    100
+                ]
+            }
+        },
+        "lightning_density": {
+            "YR_precipitation": {
+                "discrete": true,
+                "intervals": [
+                    0.5,
+                    1,
+                    2,
+                    4,
+                    6,
+                    10,
+                    15,
+                    20,
+                    25,
+                    30,
+                    40,
+                    50,
+                    999999999
+                ]
+            },
+            "contour_config": {
+                "intervals": [
+                    1,
+                    2,
+                    5
+                ]
+            }
+        },
+        "momentum flux/zonal stress": {
+            "Standard_pastel (momentum)": {
+                "palette": "Standard_pastel",
+                "discrete": true,
+                "intervals": [
+                    -999999999,
+                    -500000,
+                    -100000,
+                    -50000,
+                    -10000,
+                    -5000,
+                    -1000,
+                    0,
+                    1000,
+                    5000,
+                    50000,
+                    100000,
+                    999999999
+                ]
+            },
+            "Standard_pastel (zonal_stress)": {
+                "palette": "Standard_pastel",
+                "discrete": true,
+                "intervals": [
+                    -10,
+                    -7,
+                    -5,
+                    -1,
+                    -0.1,
+                    -0.01,
+                    0,
+                    0.01,
+                    0.1,
+                    1,
+                    5,
+                    7,
+                    10
+                ]
+            },
+            "contour_config": {
+                "intervals": [
+                    100,
+                    1000,
+                    5000
+                ]
+            }
+        },
+        "per mille": {
+            "No_green_blues": {
+                "gradient": true,
+                "discrete": true,
+                "intervals": [
+                    -999999999,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36
+                ]
+            },
+            "No_green": {
+                "gradient": true,
+                "discrete": true,
+                "intervals": [
+                    -999999999,
+                    28,
+                    30,
+                    32,
+                    32.5,
+                    33,
+                    33.25,
+                    33.5,
+                    33.75,
+                    34,
+                    34.25,
+                    34.5,
+                    34.75,
+                    35,
+                    35.25,
+                    35.5,
+                    999999999
+                ]
+            },
+            "Haline": {
+                "palette": "haline",
+                "gradient": false,
+                "discrete": true,
+                "intervals": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29.0,
+                    29.035,
+                    29.07,
+                    29.105,
+                    29.14,
+                    29.175,
+                    29.21,
+                    29.245,
+                    29.28,
+                    29.315,
+                    29.35,
+                    29.385,
+                    29.42,
+                    29.455,
+                    29.49,
+                    29.525,
+                    29.56,
+                    29.595,
+                    29.63,
+                    29.665,
+                    29.7,
+                    29.735,
+                    29.77,
+                    29.805,
+                    29.84,
+                    29.875,
+                    29.91,
+                    29.945,
+                    29.98,
+                    30.015,
+                    30.05,
+                    30.085,
+                    30.12,
+                    30.155,
+                    30.19,
+                    30.225,
+                    30.26,
+                    30.295,
+                    30.33,
+                    30.365,
+                    30.4,
+                    30.435,
+                    30.47,
+                    30.505,
+                    30.54,
+                    30.575,
+                    30.61,
+                    30.645,
+                    30.68,
+                    30.715,
+                    30.75,
+                    30.785,
+                    30.82,
+                    30.855,
+                    30.89,
+                    30.925,
+                    30.96,
+                    30.995,
+                    31.03,
+                    31.065,
+                    31.1,
+                    31.135,
+                    31.17,
+                    31.205,
+                    31.24,
+                    31.275,
+                    31.31,
+                    31.345,
+                    31.38,
+                    31.415,
+                    31.45,
+                    31.485,
+                    31.52,
+                    31.555,
+                    31.59,
+                    31.625,
+                    31.66,
+                    31.695,
+                    31.73,
+                    31.765,
+                    31.8,
+                    31.835,
+                    31.87,
+                    31.905,
+                    31.94,
+                    31.975,
+                    32.01,
+                    32.045,
+                    32.08,
+                    32.115,
+                    32.15,
+                    32.185,
+                    32.22,
+                    32.255,
+                    32.29,
+                    32.325,
+                    32.36,
+                    32.395,
+                    32.43,
+                    32.465,
+                    32.5,
+                    32.535,
+                    32.57,
+                    32.605,
+                    32.64,
+                    32.675,
+                    32.71,
+                    32.745,
+                    32.78,
+                    32.815,
+                    32.85,
+                    32.885,
+                    32.92,
+                    32.955,
+                    32.99,
+                    33.025,
+                    33.06,
+                    33.095,
+                    33.13,
+                    33.165,
+                    33.2,
+                    33.235,
+                    33.27,
+                    33.305,
+                    33.34,
+                    33.375,
+                    33.41,
+                    33.445,
+                    33.48,
+                    33.515,
+                    33.55,
+                    33.585,
+                    33.62,
+                    33.655,
+                    33.69,
+                    33.725,
+                    33.76,
+                    33.795,
+                    33.83,
+                    33.865,
+                    33.9,
+                    33.935,
+                    33.97,
+                    34.005,
+                    34.04,
+                    34.075,
+                    34.11,
+                    34.145,
+                    34.18,
+                    34.215,
+                    34.25,
+                    34.285,
+                    34.32,
+                    34.355,
+                    34.39,
+                    34.425,
+                    34.46,
+                    34.495,
+                    34.53,
+                    34.565,
+                    34.6,
+                    34.635,
+                    34.67,
+                    34.705,
+                    34.74,
+                    34.775,
+                    34.81,
+                    34.845,
+                    34.88,
+                    34.915,
+                    34.95,
+                    34.985,
+                    35.02,
+                    35.055,
+                    35.09,
+                    35.125,
+                    35.16,
+                    35.195,
+                    35.23,
+                    35.265,
+                    35.3,
+                    35.335,
+                    35.37,
+                    35.405,
+                    35.44,
+                    35.475,
+                    35.51,
+                    35.545,
+                    35.58,
+                    35.615,
+                    35.65,
+                    35.685,
+                    35.72,
+                    35.755,
+                    35.79,
+                    35.825,
+                    35.86,
+                    35.895,
+                    35.93,
+                    35.965,
+                    36.0,
+                    36.035,
+                    36.07,
+                    36.105,
+                    36.14,
+                    36.175,
+                    36.21,
+                    36.245,
+                    36.28,
+                    36.315,
+                    36.35,
+                    36.385,
+                    36.42,
+                    36.455,
+                    36.49,
+                    36.525,
+                    36.56,
+                    36.595,
+                    36.63,
+                    36.665,
+                    36.7,
+                    36.735,
+                    36.77,
+                    36.805,
+                    36.84,
+                    36.875,
+                    36.91
+                ]
+            },
+            "contour_config": {
+                "intervals": [
+                    0.5,
+                    1,
+                    2
+                ]
+            }
+        },
+        "period": {
+            "Wave_period": {
+                "discrete": true,
+                "intervals": [
+                    -999999999,
+                    1,
+                    2,
+                    4,
+                    6,
+                    8,
+                    10,
+                    12,
+                    14,
+                    16,
+                    17,
+                    18,
+                    999999999
+                ]
+            },
+            "Value_green": {
+                "value": true,
+                "palette": [
+                    "green"
+                ],
+                "label_text": "(tostring([value], '%.0f'))"
+            },
+            "Value_magenta": {
+                "value": true,
+                "palette": [
+                    "magenta"
+                ],
+                "label_text": "(tostring([value], '%.0f'))"
+            },
+            "contour_config": {
+                "intervals": [
+                    1,
+                    1,
+                    2
+                ]
+            }
+        },
+        "potential vorticity": {
+            "Rainbow (kinetic_energy)": {
+                "palette": "Rainbow",
+                "discrete": true,
+                "intervals": [
+                    -999999999,
+                    0,
+                    2,
+                    5,
+                    7,
+                    10,
+                    12,
+                    15,
+                    17,
+                    20,
+                    25,
+                    30,
+                    35,
+                    40,
+                    45,
+                    50,
+                    55,
+                    60,
+                    65,
+                    70,
+                    75,
+                    80,
+                    85,
+                    90,
+                    95,
+                    100
+                ]
+            },
+            "contour_config": {
+                "intervals": [
+                    10,
+                    15,
+                    25
+                ]
+            }
+        },
+        "pressure": {
+            "Standard_medium": {
+                "discrete": true,
+                "intervals": [
+                    -999999999,
+                    800,
+                    900,
+                    950,
+                    960,
+                    970,
+                    980,
+                    990,
+                    1000,
+                    1010,
+                    1011,
+                    1012,
+                    1013,
+                    1014,
+                    1015,
+                    1030,
+                    1040,
+                    1050,
+                    999999999
+                ]
+            },
+            "Standard_large_black-white": {
+                "discrete": true,
+                "intervals": [
+                    50,
+                    70,
+                    90,
+                    110,
+                    130,
+                    150,
+                    170,
+                    190,
+                    200,
+                    210,
+                    220,
+                    230,
+                    240,
+                    250,
+                    260,
+                    270,
+                    280,
+                    290,
+                    300,
+                    350,
+                    400,
+                    450,
+                    500
+                ]
+            },
+            "contour_config": {
+                "intervals": [
+                    5,
+                    5,
+                    10
+                ]
+            }
+        },
+        "pressure tendency": {
+            "Standard_large": {
+                "discrete": true,
+                "intervals": [
+                    -15,
+                    -10,
+                    -5,
+                    -3,
+                    -1,
+                    -0.5,
+                    -0.1,
+                    -0.008,
+                    -0.005,
+                    -0.003,
+                    0,
+                    0.003,
+                    0.005,
+                    0.008,
+                    0.1,
+                    0.5,
+                    1,
+                    3,
+                    5,
+                    10,
+                    15
+                ]
+            },
+            "contour_config": {
+                "intervals": [
+                    1,
+                    3,
+                    5
+                ]
+            }
+        },
+        "probability": {
+            "Standard (probability)": {
+                "palette": "Standard_probability",
+                "discrete": true,
+                "intervals": [
+                    0.1,
+                    0.2,
+                    0.3,
+                    0.4,
+                    0.5,
+                    0.6,
+                    0.7,
+                    0.8,
+                    0.9,
+                    1
+                ]
+            },
+            "Green-yellow-orange-red-grey": {
+                "palette": "Ice",
+                "discrete": true,
+                "intervals": [
+                    0,
+                    0.2,
+                    0.4,
+                    0.6,
+                    0.8,
+                    1.0
+                ]
+            },
+            "Lightblue-darkblue": {
+                "discrete": true,
+                "intervals": [
+                    0.001,
+                    0.1,
+                    0.2,
+                    0.3,
+                    0.4,
+                    0.5,
+                    0.6,
+                    0.7,
+                    0.8,
+                    0.9,
+                    0.95,
+                    1
+                ]
+            },
+            "Gray_shade": {
+                "palette": "gray",
+                "gradient": true,
+                "intervals": [
+                    0.1,
+                    1
+                ],
+                "labels": [
+                    "0.1 – 1"
+                ]
+            },
+            "contour_config": {
+                "intervals": [
+                    0.2,
+                    0.4,
+                    0.6
+                ],
+                "n_decimals": 1
+            }
+        },
+        "relative_humidity": {
+            "Value_blue": {
+                "value": true,
+                "palette": [
+                    "blue"
+                ],
+                "label_text": "(tostring([value], '%.0f'))"
+            },
+            "Value_magenta": {
+                "value": true,
+                "palette": [
+                    "magenta"
+                ],
+                "label_text": "(tostring([value], '%.0f'))"
+            },
+            "Green_blue_purple": {
+                "discrete": true,
+                "intervals": [
+                    65,
+                    80,
+                    95,
+                    105
+                ]
+            },
+            "contour_config": {
+                "intervals": [
+                    10,
+                    20,
+                    30
+                ]
+            }
+        },
+        "senorge_temperature": {
+            "SeNorge_Temperature": {
+                "gradient": false,
+                "discrete": true,
+                "contour": false,
+                "intervals": [
+                    999999999,
+                    20,
+                    15,
+                    10,
+                    5,
+                    3,
+                    1,
+                    0,
+                    -1,
+                    -3,
+                    -5,
+                    -10,
+                    -15,
+                    -20,
+                    -999999999
+                ]
+            },
+            "contour_config": {
+                "intervals": [
+                    20,
+                    50,
+                    100
+                ]
+            }
+        },
+        "senorge_temperature_devn": {
+            "SeNorge_Temperature": {
+                "gradient": false,
+                "discrete": true,
+                "intervals": [
+                    999999999,
+                    6,
+                    5,
+                    4,
+                    3,
+                    2,
+                    1,
+                    0,
+                    -1,
+                    -2,
+                    -3,
+                    -4,
+                    -5,
+                    -6,
+                    -999999999
+                ]
+            },
+            "contour_config": {
+                "intervals": [
+                    2,
+                    4,
+                    6
+                ]
+            }
+        },
+        "senorge_rainfall_7day": {
+            "SeNorge_Rainfall": {
+                "gradient": false,
+                "discrete": true,
+                "intervals": [
+                    999999999,
+                    300,
+                    200,
+                    150,
+                    100,
+                    60,
+                    40,
+                    20,
+                    0.1,
+                    -999999999
+                ]
+            },
+            "contour_config": {
+                "intervals": [
+                    20,
+                    50,
+                    100
+                ]
+            }
+        },
+        "senorge_rainfall_monthly": {
+            "SeNorge_Rainfall": {
+                "gradient": false,
+                "discrete": true,
+                "intervals": [
+                    999999999,
+                    1000,
+                    750,
+                    500,
+                    300,
+                    200,
+                    100,
+                    50,
+                    0.1,
+                    -999999999
+                ]
+            },
+            "contour_config": {
+                "intervals": [
+                    20,
+                    50,
+                    100
+                ]
+            }
+        },
+        "senorge_rainfall_monthly_devn": {
+            "SeNorge_Rainfall_Devn": {
+                "gradient": false,
+                "discrete": true,
+                "intervals": [
+                    999999999,
+                    300,
+                    200,
+                    130,
+                    110,
+                    90,
+                    70,
+                    50,
+                    25,
+                    -999999999
+                ]
+            },
+            "contour_config": {
+                "intervals": [
+                    20,
+                    50,
+                    100
+                ]
+            }
+        },
+        "senorge_rainfall_yearly": {
+            "SeNorge_Rainfall": {
+                "gradient": false,
+                "discrete": true,
+                "intervals": [
+                    999999999,
+                    4000,
+                    3000,
+                    2000,
+                    1500,
+                    1000,
+                    750,
+                    500,
+                    0.1,
+                    -999999999
+                ]
+            },
+            "contour_config": {
+                "intervals": [
+                    500,
+                    500,
+                    1000
+                ]
+            }
+        },
+        "senorge_rainfall_yearly_devn": {
+            "SeNorge_Rainfall_Devn": {
+                "gradient": false,
+                "discrete": true,
+                "intervals": [
+                    999999999,
+                    175,
+                    150,
+                    130,
+                    110,
+                    90,
+                    70,
+                    50,
+                    25,
+                    -999999999
+                ]
+            },
+            "contour_config": {
+                "intervals": [
+                    20,
+                    50,
+                    100
+                ]
+            }
+        },
+        "specific_humidity": {
+            "ECMWF_humidity": {
+                "discrete": true,
+                "intervals": [
+                    0,
+                    0.5,
+                    1,
+                    2,
+                    4,
+                    6,
+                    8,
+                    10,
+                    12,
+                    14,
+                    16,
+                    18,
+                    20,
+                    28
+                ]
+            },
+            "Value_blue": {
+                "value": true,
+                "palette": [
+                    "blue"
+                ],
+                "label_text": "(tostring([value], '%.0f'))"
+            },
+            "Value_magenta": {
+                "value": true,
+                "palette": [
+                    "magenta"
+                ],
+                "label_text": "(tostring([value], '%.0f'))"
+            },
+            "contour_config": {
+                "intervals": [
+                    1,
+                    5,
+                    10
+                ]
+            }
+        },
+        "spectrum": {
+            "Standard (fraction)": {
+                "palette": "Standard",
+                "discrete": true,
+                "intervals": [
+                    0.1,
+                    0.2,
+                    0.3,
+                    0.4,
+                    0.5,
+                    0.6,
+                    0.7,
+                    0.8,
+                    0.9,
+                    0.95,
+                    1
+                ]
+            },
+            "contour_config": {
+                "intervals": [
+                    0.2,
+                    0.3,
+                    0,
+                    4
+                ]
+            }
+        },
+        "speed_ms": {
+            "Green-orange (Beaufort_scale)": {
+                "palette": "Green-orange",
+                "discrete": true,
+                "intervals": [
+                    0.2,
+                    1.5,
+                    3.3,
+                    5.4,
+                    8.0,
+                    10.8,
+                    13.9,
+                    17.2,
+                    20.8,
+                    24.5,
+                    28.5,
+                    32.7,
+                    999999999
+                ],
+                "labels": [
+                    "1: Light air",
+                    "2: Light breeze",
+                    "3: Gentle breeze",
+                    "4: Moderate breeze",
+                    "5: Fresh breeze",
+                    "6: Strong breeze",
+                    "7: Near gale",
+                    "8: Gale",
+                    "9: Severe gale",
+                    "10: Storm",
+                    "11: Violent storm",
+                    "12: Hurricane"
+                ],
+                "opacity": 63
+            },
+            "YR_wind": {
+                "gradient": true,
+                "discrete": true,
+                "intervals": [
+                    -999999999,
+                    5,
+                    10,
+                    15,
+                    20,
+                    25,
+                    30,
+                    999999999
+                ]
+            },
+            "Nuclear (Beaufort_scale)": {
+                "palette": "Nuclear",
+                "discrete": true,
+                "intervals": [
+                    0,
+                    0.2,
+                    1.5,
+                    3.3,
+                    5.4,
+                    8,
+                    10.8,
+                    13.9,
+                    17.2
+                ],
+                "labels": [
+                    "0: Calm",
+                    "1: Light air",
+                    "2: Light breeze",
+                    "3: Gentle breeze",
+                    "4: Moderate breeze",
+                    "5: Fresh breeze",
+                    "6: Strong breeze",
+                    "7: Near gale"
+                ]
+            },
+            "Standard_pastel (Beaufort_scale)": {
+                "palette": "Standard_pastel",
+                "discrete": true,
+                "intervals": [
+                    0.2,
+                    1.5,
+                    3.3,
+                    5.4,
+                    8.0,
+                    10.8,
+                    13.9,
+                    17.2,
+                    20.8,
+                    24.5,
+                    28.5,
+                    32.7,
+                    999999999
+                ]
+            },
+            "Wind_gust": {
+                "discrete": true,
+                "intervals": [
+                    15,
+                    18,
+                    21,
+                    24,
+                    27,
+                    30,
+                    33,
+                    36,
+                    39,
+                    42,
+                    45
+                ]
+            },
+            "No_green": {
+                "gradient": true,
+                "discrete": true,
+                "intervals": [
+                    0,
+                    0.1,
+                    0.2,
+                    0.3,
+                    0.4,
+                    0.5,
+                    0.6,
+                    0.7,
+                    0.8,
+                    0.9,
+                    1.0,
+                    1.1,
+                    1.2,
+                    1.3,
+                    1.4,
+                    1.5,
+                    1.6
+                ],
+                "opacity": 63
+            },
+            "Green-blue": {
+                "palette": "Probability",
+                "discrete": true,
+                "intervals": [
+                    8.0,
+                    10.8,
+                    13.9,
+                    17.2,
+                    20.8,
+                    999999999
+                ]
+            },
+            "Contour_Beaufort_black": {
+                "palette": "Contour_black",
+                "contour": true,
+                "levels": [
+                    8.0,
+                    10.8,
+                    13.9,
+                    17.2,
+                    20.8,
+                    24.5,
+                    28.5,
+                    32.7
+                ],
+                "labels": [
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12
+                ]
+            },
+            "Contour_Beaufort_red": {
+                "palette": "Contour_red",
+                "contour": true,
+                "levels": [
+                    8.0,
+                    10.8,
+                    13.9,
+                    17.2,
+                    20.8,
+                    24.5,
+                    28.5,
+                    32.7
+                ],
+                "labels": [
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12
+                ]
+            },
+            "Contour_Beaufort_blue": {
+                "palette": "Contour_blue",
+                "contour": true,
+                "levels": [
+                    8.0,
+                    10.8,
+                    13.9,
+                    17.2,
+                    20.8,
+                    24.5,
+                    28.5,
+                    32.7
+                ],
+                "labels": [
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12
+                ]
+            },
+            "Contour_Beaufort_green": {
+                "palette": "Contour_green",
+                "contour": true,
+                "levels": [
+                    8.0,
+                    10.8,
+                    13.9,
+                    17.2,
+                    20.8,
+                    24.5,
+                    28.5,
+                    32.7
+                ],
+                "labels": [
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12
+                ]
+            },
+            "Contour_Beaufort_darkred": {
+                "palette": "darkred",
+                "contour": true,
+                "levels": [
+                    8.0,
+                    10.8,
+                    13.9,
+                    17.2,
+                    20.8,
+                    24.5,
+                    28.5,
+                    32.7
+                ],
+                "labels": [
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12
+                ]
+            },
+            "contour_config": {
+                "intervals": [
+                    5,
+                    5,
+                    10
+                ]
+            }
+        },
+        "speed_ms_sea": {
+            "No_green": {
+                "gradient": true,
+                "discrete": true,
+                "intervals": [
+                    0,
+                    0.1,
+                    0.2,
+                    0.3,
+                    0.4,
+                    0.5,
+                    0.6,
+                    0.7,
+                    0.8,
+                    0.9,
+                    1.0,
+                    1.1,
+                    1.2,
+                    1.3,
+                    1.4,
+                    1.5,
+                    1.6
+                ]
+            },
+            "Purple": {
+                "palette": "YR_wind",
+                "gradient": true,
+                "discrete": true,
+                "intervals": [
+                    0.02,
+                    0.04,
+                    0.06,
+                    0.08,
+                    0.1,
+                    0.12,
+                    0.14,
+                    0.16
+                ]
+            },
+            "No_green_negative": {
+                "palette": "No_green",
+                "gradient": true,
+                "discrete": true,
+                "intervals": [
+                    -0.08,
+                    -0.07,
+                    -0.06,
+                    -0.05,
+                    -0.04,
+                    -0.03,
+                    -0.02,
+                    -0.01,
+                    0,
+                    0.01,
+                    0.02,
+                    0.03,
+                    0.04,
+                    0.05,
+                    0.06,
+                    0.07,
+                    0.08
+                ]
+            },
+            "Speed": {
+                "palette": "speed",
+                "discrete": true,
+                "interval": 0.0075,
+                "min_value": 0,
+                "total_colors": 255
+            },
+            "contour_config": {
+                "intervals": [
+                    0.1,
+                    0.1,
+                    0.2
+                ],
+                "n_decimals": 1
+            },
+            "vector_arrow_config": {
+                "uv_spacing": 20,
+                "uv_size_scale": 27
+            }
+        },
+        "speed_knots": {
+            "Green-orange (Beaufort_scale)": {
+                "palette": "Green-orange",
+                "discrete": true,
+                "intervals": [
+                    0.4,
+                    3.0,
+                    6.6,
+                    10.8,
+                    15.5,
+                    20.9,
+                    27.0,
+                    33.4,
+                    40.4,
+                    47.6,
+                    55.4,
+                    63.5,
+                    999999999
+                ],
+                "labels": [
+                    "1: Light air",
+                    "2: Light breeze",
+                    "3: Gentle breeze",
+                    "4: Moderate breeze",
+                    "5: Fresh breeze",
+                    "6: Strong breeze",
+                    "7: Near gale",
+                    "8: Gale",
+                    "9: Severe gale",
+                    "10: Storm",
+                    "11: Violent storm",
+                    "12: Hurricane"
+                ],
+                "opacity": 63
+            },
+            "YR_wind": {
+                "gradient": true,
+                "discrete": true,
+                "intervals": [
+                    -999999999,
+                    9.72,
+                    19.44,
+                    29.16,
+                    38.88,
+                    48.6,
+                    58.32,
+                    999999999
+                ]
+            },
+            "Nuclear (Beaufort_scale)": {
+                "palette": "Nuclear",
+                "discrete": true,
+                "intervals": [
+                    0.4,
+                    3.0,
+                    6.6,
+                    10.8,
+                    15.5,
+                    20.9,
+                    27.0,
+                    33.4,
+                    40.4,
+                    47.6,
+                    55.4,
+                    63.5,
+                    999999999
+                ],
+                "labels": [
+                    "1: Light air",
+                    "2: Light breeze",
+                    "3: Gentle breeze",
+                    "4: Moderate breeze",
+                    "5: Fresh breeze",
+                    "6: Strong breeze",
+                    "7: Near gale",
+                    "8: Gale",
+                    "9: Severe gale",
+                    "10: Storm",
+                    "11: Violent storm",
+                    "12: Hurricane"
+                ]
+            },
+            "Standard_pastel (Beaufort_scale)": {
+                "palette": "Standard_pastel",
+                "discrete": true,
+                "intervals": [
+                    0.4,
+                    3.0,
+                    6.6,
+                    10.8,
+                    15.5,
+                    20.9,
+                    27.0,
+                    33.4,
+                    40.4,
+                    47.6,
+                    55.4,
+                    63.5,
+                    999999999
+                ]
+            },
+            "No_green": {
+                "gradient": true,
+                "discrete": true,
+                "intervals": [
+                    0,
+                    0.1,
+                    0.2,
+                    0.3,
+                    0.4,
+                    0.5,
+                    0.6,
+                    0.7,
+                    0.8,
+                    0.9,
+                    1.0,
+                    1.1,
+                    1.2,
+                    1.3,
+                    1.4,
+                    1.5,
+                    1.6
+                ],
+                "opacity": 63
+            },
+            "Green-blue": {
+                "palette": "Probability",
+                "discrete": true,
+                "intervals": [
+                    15.5,
+                    20.9,
+                    27.0,
+                    33.4,
+                    40.4,
+                    999999999
+                ]
+            },
+            "Wind_gust": {
+                "discrete": true,
+                "intervals": [
+                    20,
+                    25,
+                    30,
+                    35,
+                    40,
+                    45,
+                    50,
+                    55,
+                    60,
+                    70,
+                    80
+                ]
+            },
+            "Red": {
+                "palette": "White-red",
+                "discrete": true,
+                "intervals": [
+                    15.5,
+                    20.9,
+                    27.0,
+                    33.4,
+                    40.4,
+                    47.6,
+                    55.4,
+                    63.5
+                ]
+            },
+            "Red_greater_than_90_knots": {
+                "palette": "White-red",
+                "discrete": true,
+                "intervals": [
+                    100,
+                    110,
+                    120,
+                    130,
+                    140,
+                    150,
+                    160,
+                    170,
+                    180,
+                    190,
+                    200,
+                    210,
+                    220,
+                    230
+                ]
+            },
+            "Contour_Red_palette": {
+                "palette": "black",
+                "contour": true,
+                "levels": [
+                    15.5,
+                    20.9,
+                    27.0,
+                    33.4,
+                    40.4,
+                    47.6,
+                    55.4,
+                    63.5
+                ],
+                "n_decimals": 1
+            },
+            "Contour_Red_greater_than_90_knots": {
+                "palette": "black",
+                "contour": true,
+                "levels": [
+                    100,
+                    110,
+                    120,
+                    130,
+                    140,
+                    150,
+                    160,
+                    170,
+                    180,
+                    190,
+                    200,
+                    210,
+                    220,
+                    230
+                ]
+            },
+            "Contour_Beaufort_darkred": {
+                "palette": "darkred",
+                "contour": true,
+                "levels": [
+                    15.5,
+                    20.9,
+                    27.0,
+                    33.4,
+                    40.4,
+                    47.6,
+                    55.4,
+                    63.5
+                ],
+                "labels": [
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12
+                ]
+            },
+            "Contour_Beaufort_black": {
+                "palette": "Contour_black",
+                "contour": true,
+                "levels": [
+                    15.5,
+                    20.9,
+                    27.0,
+                    33.4,
+                    40.4,
+                    47.6,
+                    55.4,
+                    63.5
+                ],
+                "labels": [
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12
+                ]
+            },
+            "Contour_Beaufort_red": {
+                "palette": "Contour_red",
+                "contour": true,
+                "levels": [
+                    15.5,
+                    20.9,
+                    27.0,
+                    33.4,
+                    40.4,
+                    47.6,
+                    55.4,
+                    63.5
+                ],
+                "labels": [
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12
+                ]
+            },
+            "Contour_Beaufort_blue": {
+                "palette": "Contour_blue",
+                "contour": true,
+                "levels": [
+                    15.5,
+                    20.9,
+                    27.0,
+                    33.4,
+                    40.4,
+                    47.6,
+                    55.4,
+                    63.5
+                ],
+                "labels": [
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12
+                ]
+            },
+            "Contour_Beaufort_green": {
+                "palette": "Contour_green",
+                "contour": true,
+                "levels": [
+                    15.5,
+                    20.9,
+                    27.0,
+                    33.4,
+                    40.4,
+                    47.6,
+                    55.4,
+                    63.5
+                ],
+                "labels": [
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12
+                ]
+            },
+            "contour_config": {
+                "intervals": [
+                    5,
+                    5,
+                    10
+                ],
+                "lower_limit": 15
+            },
+            "vector_arrow_config": {
+                "uv_spacing": 16
+            }
+        },
+        "turbulence": {
+            "Orange_red (turbulence kinetic energy)": {
+                "palette": "Orange_red",
+                "discrete": true,
+                "intervals": [
+                    2.25,
+                    3.5,
+                    999999999
+                ],
+                "labels": [
+                    "Moderate",
+                    "Severe"
+                ]
+            },
+            "Orange (vertical velocity)": {
+                "palette": "Orange_red",
+                "discrete": true,
+                "intervals": [
+                    -999999999,
+                    -1.75
+                ]
+            },
+            "contour_config": {
+                "intervals": [
+                    0.25,
+                    0.5,
+                    1
+                ],
+                "n_decimals": 2
+            }
+        },
+        "stress": {
+            "Standard_large_black": {
+                "discrete": true,
+                "intervals": [
+                    -999999999,
+                    -1000000,
+                    -100000,
+                    -50000,
+                    -10000,
+                    -4000,
+                    -2000,
+                    -1000,
+                    -400,
+                    -200,
+                    0,
+                    200,
+                    400,
+                    1000,
+                    2000,
+                    4000,
+                    10000,
+                    50000,
+                    100000,
+                    1000000,
+                    5000000,
+                    999999999
+                ]
+            },
+            "contour_config": {
+                "intervals": [
+                    2000,
+                    4000,
+                    6000
+                ]
+            }
+        },
+        "temperature_K": {
+            "Temperature_2_m": {
+                "discrete": true,
+                "gradient": true,
+                "intervals": [
+                    -999999999,
+                    -50,
+                    -35,
+                    -30,
+                    -25,
+                    -20,
+                    -15,
+                    -10,
+                    -5,
+                    -3,
+                    -1,
+                    0,
+                    1,
+                    3,
+                    5,
+                    10,
+                    15,
+                    20,
+                    25,
+                    30,
+                    35,
+                    50,
+                    999999999
+                ],
+                "opacity": 63
+            },
+            "Blue-red_temperature": {
+                "gradient": true,
+                "intervals": [
+                    -50,
+                    0.0,
+                    50
+                ]
+            },
+            "Topocolor": {
+                "discrete": true,
+                "intervals": [
+                    0.5,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    8,
+                    10,
+                    12
+                ]
+            },
+            "contour_config": {
+                "intervals": [
+                    2,
+                    4,
+                    8
+                ]
+            }
+        },
+        "temperature_C": {
+            "Temperature_2_m": {
+                "discrete": true,
+                "gradient": true,
+                "intervals": [
+                    -999999999,
+                    -50,
+                    -35,
+                    -30,
+                    -25,
+                    -20,
+                    -15,
+                    -10,
+                    -5,
+                    -3,
+                    -1,
+                    0,
+                    1,
+                    3,
+                    5,
+                    10,
+                    15,
+                    20,
+                    25,
+                    30,
+                    35,
+                    50,
+                    999999999
+                ],
+                "opacity": 63
+            },
+            "Blue-red_temperature": {
+                "gradient": true,
+                "intervals": [
+                    -50,
+                    0.0,
+                    50
+                ]
+            },
+            "Temperature_cold_warm": {
+                "gradient": true,
+                "discrete": true,
+                "intervals": [
+                    -999999999,
+                    -24,
+                    -22,
+                    -20,
+                    -18,
+                    -16,
+                    -14,
+                    -12,
+                    -10,
+                    -8,
+                    -6,
+                    -4,
+                    -2,
+                    0,
+                    2,
+                    4,
+                    6,
+                    8,
+                    10,
+                    12,
+                    14,
+                    16,
+                    18,
+                    20,
+                    22,
+                    999999999
+                ]
+            },
+            "Value_blue": {
+                "value": true,
+                "palette": [
+                    "blue"
+                ],
+                "label_text": "(tostring([value], '%.0f'))"
+            },
+            "Value_black": {
+                "value": true,
+                "palette": [
+                    "black"
+                ],
+                "label_text": "(tostring([value], '%.0f'))"
+            },
+            "Value_blue_green_red": {
+                "value": true,
+                "palette": [
+                    "blue",
+                    "green",
+                    "red"
+                ],
+                "expression": [
+                    "([value] < -0.5)",
+                    "(-0.5 <= [value] AND [value] <= 0.5)",
+                    "([value] > 0.5)"
+                ],
+                "label_text": "(tostring([value], '%.0f'))"
+            },
+            "contour_config": {
+                "intervals": [
+                    2,
+                    2,
+                    4
+                ]
+            }
+        },
+        "temperature_C_sea": {
+            "Sea_temperature": {
+                "gradient": true,
+                "discrete": true,
+                "intervals": [
+                    -2,
+                    -1,
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25
+                ]
+            },
+            "Sea_temperature_cold": {
+                "palette": "Sea_temperature",
+                "discrete": true,
+                "gradient": true,
+                "min_value": -2,
+                "interval": 0.75,
+                "open_interval_upper": true,
+                "total_colors": 27
+            },
+            "Thermal (0.00 °C - 31.05 °C)": {
+                "palette": "thermal",
+                "discrete": true,
+                "interval": 0.15,
+                "min_value": 0,
+                "total_colors": 208
+            },
+            "Thermal_cold (-0.5 °C - 15 °C)": {
+                "palette": "thermal",
+                "discrete": true,
+                "interval": 0.1,
+                "min_value": -0.5,
+                "open_interval_upper": true,
+                "total_colors": 156
+            },
+            "Thermal_warm (15 °C - 30 °C)": {
+                "palette": "thermal",
+                "discrete": true,
+                "interval": 0.1,
+                "min_value": 15,
+                "open_interval_lower": true,
+                "total_colors": 151
+            },
+            "Thermal (0 °C - 22 °C)": {
+                "palette": "thermal",
+                "discrete": true,
+                "interval": 2,
+                "min_value": 0,
+                "total_colors": 12
+            },
+            "Value_blue": {
+                "value": true,
+                "palette": [
+                    "blue"
+                ],
+                "label_text": "(tostring([value], '%.0f'))"
+            },
+            "Value_black": {
+                "value": true,
+                "palette": [
+                    "black"
+                ],
+                "label_text": "(tostring([value], '%.0f'))"
+            },
+            "Value_blue_green_red": {
+                "value": true,
+                "palette": [
+                    "blue",
+                    "green",
+                    "red"
+                ],
+                "expression": [
+                    "([value] < -0.5)",
+                    "(-0.5 <= [value] AND [value] <= 0.5)",
+                    "([value] > 0.5)"
+                ],
+                "label_text": "(tostring([value], '%.0f'))"
+            },
+            "contour_config": {
+                "intervals": [
+                    2,
+                    2,
+                    4
+                ]
+            }
+        },
+        "temperature_C_diff": {
+            "Contour_odd_numbers_magenta": {
+                "palette": "Contour_magenta",
+                "contour": true,
+                "add_extreme_points": false,
+                "levels": [
+                    1,
+                    3,
+                    5,
+                    7,
+                    9,
+                    11,
+                    13,
+                    15,
+                    17,
+                    19,
+                    21,
+                    23,
+                    25,
+                    27,
+                    29,
+                    31,
+                    33,
+                    35,
+                    37,
+                    39,
+                    41,
+                    43,
+                    45,
+                    47,
+                    49,
+                    51,
+                    53,
+                    55
+                ]
+            },
+            "Contour_even_numbers_36-38_blue": {
+                "palette": "Contour_blue",
+                "contour": true,
+                "add_extreme_points": true,
+                "levels": [
+                    36,
+                    38
+                ]
+            },
+            "Contour_even_numbers_40-60_red": {
+                "palette": "Contour_red",
+                "contour": true,
+                "add_extreme_points": true,
+                "levels": [
+                    40,
+                    42,
+                    44,
+                    46,
+                    48,
+                    50,
+                    52,
+                    54,
+                    56,
+                    58,
+                    60
+                ]
+            },
+            "Sea_temperature": {
+                "gradient": true,
+                "discrete": true,
+                "interval": 2,
+                "min_value": 10,
+                "total_colors": 27
+            },
+            "Thermal": {
+                "palette": "thermal",
+                "discrete": true,
+                "interval": 1,
+                "min_value": 5,
+                "total_colors": 60
+            },
+            "Value_blue": {
+                "value": true,
+                "palette": [
+                    "blue"
+                ],
+                "label_text": "(tostring([value], '%.0f'))"
+            },
+            "Value_black": {
+                "value": true,
+                "palette": [
+                    "black"
+                ],
+                "label_text": "(tostring([value], '%.0f'))"
+            },
+            "Contour_odd_numbers_blue": {
+                "palette": "Contour_blue",
+                "contour": true,
+                "add_extreme_points": false,
+                "levels": [
+                    1,
+                    3,
+                    5,
+                    7,
+                    9,
+                    11,
+                    13,
+                    15,
+                    17,
+                    19,
+                    21,
+                    23,
+                    25,
+                    27,
+                    29,
+                    31,
+                    33,
+                    35,
+                    37,
+                    39,
+                    41,
+                    43,
+                    45,
+                    47,
+                    49,
+                    51,
+                    53,
+                    55
+                ]
+            },
+            "contour_config": {
+                "intervals": [
+                    2,
+                    5,
+                    10
+                ],
+                "add_extreme_points": false
+            }
+        },
+        "thickness_500_1000": {
+            "Standard_pastel": {
+                "palette": "Standard_pastel",
+                "discrete": true,
+                "intervals": [
+                    4920,
+                    4960,
+                    5000,
+                    5040,
+                    5080,
+                    5120,
+                    5160,
+                    5200,
+                    5240,
+                    5280,
+                    5320,
+                    5360,
+                    999999999
+                ]
+            },
+            "Value_black": {
+                "value": true,
+                "palette": [
+                    "black"
+                ],
+                "label_text": "(tostring([value], '%.0f'))"
+            },
+            "contour_config": {
+                "intervals": [
+                    40,
+                    40,
+                    60
+                ]
+            }
+        },
+        "unknown": {
+            "Standard (fraction)": {
+                "discrete": true,
+                "palette": "Standard",
+                "intervals": [
+                    0.1,
+                    0.2,
+                    0.3,
+                    0.4,
+                    0.5,
+                    0.6,
+                    0.7,
+                    0.8,
+                    0.9,
+                    1
+                ]
+            },
+            "Red": {
+                "palette": "White-red",
+                "discrete": true,
+                "intervals": [
+                    -999999999,
+                    200,
+                    400,
+                    600,
+                    800,
+                    1000,
+                    1200,
+                    1400,
+                    1600,
+                    1800,
+                    2000,
+                    2200,
+                    2400,
+                    999999999
+                ]
+            },
+            "Standard_dark": {
+                "discrete": true,
+                "intervals": [
+                    -1000,
+                    -900,
+                    -800,
+                    -700,
+                    -600,
+                    -500,
+                    -400,
+                    -300,
+                    -200,
+                    -100,
+                    -50,
+                    -25,
+                    0
+                ]
+            },
+            "No_green": {
+                "discrete": true,
+                "intervals": [
+                    1300,
+                    1325,
+                    1375,
+                    1400,
+                    1410,
+                    1420,
+                    1430,
+                    1440,
+                    1450,
+                    1460,
+                    1470,
+                    1480,
+                    1490,
+                    1500,
+                    1510,
+                    1520,
+                    1530
+                ]
+            },
+            "contour_config": {
+                "intervals": [
+                    10,
+                    100,
+                    1000
+                ]
+            }
+        },
+        "vertical_velocity": {
+            "Standard_pastel": {
+                "discrete": true,
+                "intervals": [
+                    -999999999,
+                    -20,
+                    -15,
+                    -10,
+                    -5,
+                    0,
+                    5,
+                    10,
+                    20,
+                    30,
+                    40,
+                    50,
+                    999999999
+                ]
+            },
+            "contour_config": {
+                "intervals": [
+                    1,
+                    5,
+                    10
+                ]
+            }
+        },
+        "wind_barb": {
+            "wind_barb": {
+                "palette": "black"
+            },
+            "wind_barb_red": {
+                "palette": "red"
+            },
+            "wind_barb_darkgreen": {
+                "palette": "darkgreen"
+            }
+        },
+        "wind_shear_horizontal": {
+            "Cloudcover": {
+                "discrete": true,
+                "intervals": [
+                    30,
+                    40,
+                    50,
+                    60,
+                    70,
+                    80,
+                    90,
+                    100,
+                    110,
+                    9999999
+                ]
+            },
+            "Standard_pastel": {
+                "discrete": true,
+                "intervals": [
+                    -999999999,
+                    5,
+                    10,
+                    15,
+                    20,
+                    25,
+                    30,
+                    35,
+                    40,
+                    45,
+                    50,
+                    55,
+                    999999999
+                ]
+            },
+            "Value_black": {
+                "value": true,
+                "palette": [
+                    "black"
+                ],
+                "label_text": "(tostring([value], '%.0f'))"
+            },
+            "contour_config": {
+                "intervals": [
+                    10,
+                    10,
+                    20
+                ],
+                "lower_limit": 30
+            }
+        },
+        "wind_shear_vertical": {
+            "Standard_pastel": {
+                "discrete": true,
+                "intervals": [
+                    -999999999,
+                    0.5,
+                    1.0,
+                    1.5,
+                    2.0,
+                    2.5,
+                    3.0,
+                    3.5,
+                    4.0,
+                    4.5,
+                    5.0,
+                    5.5,
+                    999999999
+                ]
+            },
+            "contour_config": {
+                "intervals": [
+                    0.5,
+                    0.5,
+                    1
+                ],
+                "n_decimals": 1,
+                "lower_limit": 4.5
+            }
+        },
+        "contour": {
+            "Contour_blue": {
+                "discrete": true,
+                "intervals": []
+            },
+            "Contour_red": {
+                "discrete": true,
+                "intervals": []
+            },
+            "Contour_black": {
+                "discrete": true,
+                "intervals": []
+            },
+            "Contour_green": {
+                "discrete": true,
+                "intervals": []
+            }
+        }
+    }
+}

@@ -1,0 +1,41 @@
+{
+    "always_excluded_layers": [
+        "SNC",
+        "ap",
+        "b",
+        "p0"
+    ],
+    "capabilities_excluded_layers": [
+        "rotated_pole",
+        "warning_level_limit",
+        "SNC"
+    ],
+    "spatial_and_time_dims": [
+        "time",
+        "x",
+        "y",
+        "latitude",
+        "latitude1",
+        "lat",
+        "rlat",
+        "longitude",
+        "longitude1",
+        "lon",
+        "rlon",
+        "X",
+        "Y",
+        "eta_rho",
+        "xi_rho",
+        "forecast_reference_time",
+        "projection_lambert",
+        "projection_lcc",
+        "projection_stere",
+        "projection_ob_tran",
+        "projection_regular_ll",
+        "projection_regular_ll1",
+        "projection_3",
+        "projection",
+        "stereographic",
+        "grid_mapping"
+    ]
+}

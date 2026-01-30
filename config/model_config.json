@@ -1,0 +1,64 @@
+{
+    "bris-malawi": {
+        "title": "bris",
+        "format": "nc-static",
+        "domain": "global",
+        "path": "/lustre/storeB/project/bris-malawi/anemoi-forecasts/malawi/20260105T00-0_025.nc",
+        "time_config": {
+            "start_time": "2026-01-05T00:00:00Z",
+            "interval_hours": 6,
+            "duration_hours": 240
+        },
+        "variables": [
+            "air_temperature_2m",
+            "air_pressure_at_sea_level",
+            "precipitation_amount_acc"
+        ],
+        "vector_fields": {
+            "wind_10m_vector": {
+                "x": "x_wind_10m",
+                "y": "y_wind_10m",
+                "long_name": "Eastward wind",
+                "units": "m/s",
+                "dims": [
+                    "time",
+                    "lat",
+                    "lon"
+                ]
+            }
+        },
+        "style_config": {
+            "air_temperature_2m": {
+                "title": "Air temperature",
+                "style_category": "temperature_C",
+                "unit_conversion": {
+                    "scale": 1.0,
+                    "offset": -273.15
+                }
+            },
+            "air_pressure_at_sea_level": {
+                "title": "Air pressure at sea level",
+                "style_category": "pressure",
+                "unit_conversion": {
+                    "scale": 0.01,
+                    "offset": 0.0
+                }
+            },
+            "precipitation_amount_acc": {
+                "title": "Accumulated total precipitation",
+                "style_category": "amount",
+                "unit_conversion": {
+                    "scale": 1.0,
+                    "offset": 0.0,
+                    "deaccumulate": true
+                }
+            }
+        },
+        "keywords": [
+            "bris",
+            "malawi",
+            "weather",
+            "forecast"
+        ]
+    }
+}

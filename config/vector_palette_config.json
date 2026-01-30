@@ -1,0 +1,412 @@
+{
+    "white": {
+        "color": "white",
+        "thickness": 1
+    },
+    "white_thick": {
+        "color": "white",
+        "thickness": 3
+    },
+    "white_outline": {
+        "outlinecolor": "white",
+        "thickness": 1
+    },
+    "black": {
+        "color": "black",
+        "thickness": 1
+    },
+    "black_thick": {
+        "color": "black",
+        "thickness": 3
+    },
+    "black_thick_dashed": {
+        "color": "black",
+        "thickness": 3,
+        "dashed": true,
+        "pattern": [
+            10,
+            7,
+            2,
+            7,
+            10,
+            7
+        ]
+    },
+    "black_outline": {
+        "outlinecolor": "black",
+        "thickness": 1
+    },
+    "blue": {
+        "color": "darkblue",
+        "thickness": 1
+    },
+    "blue_thick": {
+        "color": "darkblue",
+        "thickness": 3
+    },
+    "blue_thick_dashed": {
+        "color": "darkblue",
+        "thickness": 3,
+        "dashed": true,
+        "pattern": [
+            10,
+            7,
+            2,
+            7,
+            10,
+            7
+        ]
+    },
+    "blue_outline": {
+        "outlinecolor": "darkblue",
+        "thickness": 1
+    },
+    "red": {
+        "color": "darkred",
+        "thickness": 1
+    },
+    "red_thick": {
+        "color": "darkred",
+        "thickness": 3
+    },
+    "red_thick_dashed_small": {
+        "color": "darkred",
+        "thickness": 3,
+        "dashed": true,
+        "pattern": [
+            5,
+            7,
+            5,
+            7,
+            5,
+            7
+        ]
+    },
+    "red_outline": {
+        "outlinecolor": "darkred",
+        "thickness": 1
+    },
+    "green": {
+        "color": "darkgreen",
+        "thickness": 1
+    },
+    "green_thick": {
+        "color": "darkgreen",
+        "thickness": 3
+    },
+    "green_thick_dashed": {
+        "color": "darkgreen",
+        "thickness": 3,
+        "dashed": true,
+        "pattern": [
+            10,
+            7,
+            2,
+            7,
+            10,
+            7
+        ]
+    },
+    "green_thick_dashed_large": {
+        "color": "darkgreen",
+        "thickness": 3,
+        "dashed": true,
+        "pattern": [
+            20,
+            7,
+            20,
+            7,
+            20,
+            7
+        ]
+    },
+    "green_outline": {
+        "outlinecolor": "darkgreen",
+        "thickness": 1
+    },
+    "gray": {
+        "color": "gray",
+        "thickness": 1
+    },
+    "gray_thick": {
+        "color": "gray",
+        "thickness": 3
+    },
+    "gray_outline": {
+        "outlinecolor": "gray",
+        "thickness": 1
+    },
+    "magenta_thick": {
+        "color": "magenta",
+        "thickness": 3
+    },
+    "magenta_thick_dashed": {
+        "color": "magenta",
+        "thickness": 3,
+        "dashed": true,
+        "pattern": [
+            10,
+            7,
+            2,
+            7,
+            10,
+            7
+        ]
+    },
+    "yellow_thick": {
+        "color": "yellow",
+        "thickness": 3
+    },
+    "yellow_thick_dashed": {
+        "color": "yellow",
+        "thickness": 3,
+        "dashed": true,
+        "pattern": [
+            10,
+            7,
+            2,
+            7,
+            10,
+            7
+        ]
+    },
+    "cyan_thick": {
+        "color": "cyan",
+        "thickness": 3
+    },
+    "cyan_thick_dashed": {
+        "color": "cyan",
+        "thickness": 3,
+        "dashed": true,
+        "pattern": [
+            10,
+            7,
+            2,
+            7,
+            10,
+            7
+        ]
+    },
+    "lightgreen_thick": {
+        "color": "green",
+        "thickness": 3
+    },
+    "lightgreen_thick_dashed": {
+        "color": "green",
+        "thickness": 3,
+        "dashed": true,
+        "pattern": [
+            10,
+            7,
+            2,
+            7,
+            10,
+            7
+        ]
+    },
+    "lightblue_thick": {
+        "color": "blue",
+        "thickness": 3
+    },
+    "lightblue_thick_dashed": {
+        "color": "blue",
+        "thickness": 3,
+        "dashed": true,
+        "pattern": [
+            10,
+            7,
+            2,
+            7,
+            10,
+            7
+        ]
+    },
+    "purple_thick": {
+        "color": "purple",
+        "thickness": 3
+    },
+    "purple_thick_dashed": {
+        "color": "purple",
+        "thickness": 3,
+        "dashed": true,
+        "pattern": [
+            10,
+            7,
+            2,
+            7,
+            10,
+            7
+        ]
+    },
+    "orange_thick": {
+        "color": "orange",
+        "thickness": 3
+    },
+    "orange_thick_dashed": {
+        "color": "orange",
+        "thickness": 3,
+        "dashed": true,
+        "pattern": [
+            10,
+            7,
+            2,
+            7,
+            10,
+            7
+        ]
+    },
+    "land_sea": {
+        "style_by_attribute": "layer",
+        "style_categories": [
+            {
+                "name": "land",
+                "color": "gray"
+            },
+            {
+                "name": "sea",
+                "color": "seablue"
+            }
+        ]
+    },
+    "gray_land": {
+        "style_by_attribute": "layer",
+        "style_categories": [
+            {
+                "name": "land",
+                "color": "gray"
+            }
+        ]
+    },
+    "gray_land_outline": {
+        "style_by_attribute": "layer",
+        "style_categories": [
+            {
+                "name": "land",
+                "color": "gray",
+                "outlinecolor": "black",
+                "thickness": 0.5
+            }
+        ]
+    },
+    "flesh_land": {
+        "style_by_attribute": "layer",
+        "style_categories": [
+            {
+                "name": "land",
+                "color": "flesh"
+            }
+        ]
+    },
+    "flesh_land_outline": {
+        "style_by_attribute": "layer",
+        "style_categories": [
+            {
+                "name": "land",
+                "color": "flesh",
+                "outlinecolor": "black",
+                "thickness": 0.5
+            }
+        ]
+    },
+    "landgul_land": {
+        "style_by_attribute": "layer",
+        "style_categories": [
+            {
+                "name": "land",
+                "color": "landgul"
+            }
+        ]
+    },
+    "landgul_land_outline": {
+        "style_by_attribute": "layer",
+        "style_categories": [
+            {
+                "name": "land",
+                "color": "landgul",
+                "outlinecolor": "black",
+                "thickness": 0.5
+            }
+        ]
+    },
+    "graywhite_land": {
+        "style_by_attribute": "layer",
+        "style_categories": [
+            {
+                "name": "land",
+                "color": "graywhite"
+            }
+        ]
+    },
+    "graywhite_land_outline": {
+        "style_by_attribute": "layer",
+        "style_categories": [
+            {
+                "name": "land",
+                "color": "graywhite",
+                "outlinecolor": "black",
+                "thickness": 0.5
+            }
+        ]
+    },
+    "white_land": {
+        "style_by_attribute": "layer",
+        "style_categories": [
+            {
+                "name": "land",
+                "color": "white"
+            }
+        ]
+    },
+    "white_land_outline": {
+        "style_by_attribute": "layer",
+        "style_categories": [
+            {
+                "name": "land",
+                "color": "white",
+                "outlinecolor": "black",
+                "thickness": 1
+            }
+        ]
+    },
+    "icechart": {
+        "style_by_attribute": "ICE_TYPE",
+        "style_categories": [
+            {
+                "name": "Open Water",
+                "red": 150,
+                "green": 200,
+                "blue": 255
+            },
+            {
+                "name": "Very Open Drift Ice",
+                "red": 140,
+                "green": 255,
+                "blue": 160
+            },
+            {
+                "name": "Open Drift Ice",
+                "red": 255,
+                "green": 255,
+                "blue": 0
+            },
+            {
+                "name": "Close Drift Ice",
+                "red": 255,
+                "green": 127,
+                "blue": 7
+            },
+            {
+                "name": "Very Close Drift Ice",
+                "red": 255,
+                "green": 0,
+                "blue": 0
+            },
+            {
+                "name": "Fast Ice",
+                "red": 150,
+                "green": 150,
+                "blue": 150
+            }
+        ]
+    }
+}
