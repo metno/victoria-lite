@@ -12,6 +12,7 @@ services:
       - MONGO_PASSWORD=password
       - ENABLE_ADMIN_ROUTES=true
     volumes:
+      - ./test-data/malawi/:/app/data/model_data/
       - /lustre:/lustre
       - ./config/:/app/data/config_and_info_files/
       - ./entrypoint.sh:/entrypoint.sh:ro

@@ -1,23 +1,25 @@
 {
-    "bris-malawi": {
-        "title": "bris",
+    "COSMO-Malawi": {
+        "title": "COSMO-Malawi",
         "format": "nc-static",
         "domain": "global",
-        "path": "/lustre/storeB/project/bris-malawi/anemoi-forecasts/malawi/20260105T00-0_025.nc",
+        "path": "/app/data/model_data/full2025-12-26.nc",
         "time_config": {
-            "start_time": "2026-01-05T00:00:00Z",
-            "interval_hours": 6,
-            "duration_hours": 240
+            "start_time": "2025-12-26T00:00:00",
+            "interval_hours": 1,
+            "duration_hours": 126
         },
         "variables": [
-            "air_temperature_2m",
-            "air_pressure_at_sea_level",
-            "precipitation_amount_acc"
+            "msl",
+            "tp",
+            "RELHUM_2M",
+            "2t",
+            "tcc"
         ],
         "vector_fields": {
             "wind_10m_vector": {
-                "x": "x_wind_10m",
-                "y": "y_wind_10m",
+                "x": "10u",
+                "y": "10v",
                 "long_name": "Eastward wind",
                 "units": "m/s",
                 "dims": [
@@ -28,29 +30,38 @@
             }
         },
         "style_config": {
-            "air_temperature_2m": {
-                "title": "Air temperature",
-                "style_category": "temperature_C",
-                "unit_conversion": {
-                    "scale": 1.0,
-                    "offset": -273.15
-                }
-            },
-            "air_pressure_at_sea_level": {
-                "title": "Air pressure at sea level",
+            "msl": {
+                "title": "Mean sea level pressure",
                 "style_category": "pressure",
                 "unit_conversion": {
                     "scale": 0.01,
                     "offset": 0.0
                 }
             },
-            "precipitation_amount_acc": {
-                "title": "Accumulated total precipitation",
+            "tp": {
+                "title": "Total Precipitation",
                 "style_category": "amount",
                 "unit_conversion": {
                     "scale": 1.0,
                     "offset": 0.0,
                     "deaccumulate": true
+                }
+            },
+            "RELHUM_2M": {
+                "title": "2m Relative Humidity",
+                "style_category": "amount",
+                "unit_conversion": {
+                    "scale": 1.0,
+                    "offset": 0.0,
+                    "deaccumulate": true
+                }
+            },
+            "2t": {
+                "title": "Air temperature",
+                "style_category": "temperature_C",
+                "unit_conversion": {
+                    "scale": 1.0,
+                    "offset": -273.15
                 }
             }
         },
