@@ -10,16 +10,28 @@ Many caveats here, the demo setup uses a file on lustre. If you want you can cop
 #### Quickstart
 
 - Clone the repository.
-- If using the default setup with a file on lustre we need to make sure the lustre mount is initialised before starting the docker container, it's enough to do 
+- If using a file on lustre we need to make sure the lustre mount is initialised before starting the docker container, it's enough to do 
 
 ```
 ls /lustre/storeB
+```
+
+If you want to use your own local data directory, set `VICTORIA_DATA_PATH`, eg.
+
+```
+export VICTORIA_DATA_PATH=/absolute/path/to/your/data
 ```
 
 - Then, to start the server, run:
 
 ```
 docker compose up
+```
+
+Or set the environment inline (this means the variable is not persisted in your local environment)
+
+```
+MODEL_DATA_PATH=/absolute/path/to/your/data docker compose up
 ```
 
 The capabilities will then be available at:

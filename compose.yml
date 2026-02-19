@@ -11,7 +11,11 @@ services:
       - MONGO_USER=status
       - MONGO_PASSWORD=password
       - ENABLE_ADMIN_ROUTES=true
+      - ENABLE_ZARR_S3=False
+      - ENABLE_DRIFTY=False
+      - ENABLE_VOLCANO=False
     volumes:
+      - ${VICTORIA_DATA_PATH:-./data}:/data
       - /lustre:/lustre
       - ./config/:/app/data/config_and_info_files/
       - ./entrypoint.sh:/entrypoint.sh:ro
