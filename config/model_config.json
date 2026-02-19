@@ -1,6 +1,5 @@
 {
     "bris-malawi": {
-        "title": "bris",
         "format": "nc-static",
         "path": "/lustre/storeB/project/bris-malawi/anemoi-forecasts/malawi/20260105T00-0_025.nc",
         "time_config": {
@@ -18,7 +17,6 @@
                 "x": "x_wind_10m",
                 "y": "y_wind_10m",
                 "long_name": "Wind vector at 10m",
-                "units": "m/s",
                 "unit_conversion": {
                     "scale": 1.94384,
                     "offset": 0
