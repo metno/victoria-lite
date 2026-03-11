@@ -1,30 +1,78 @@
 {
-    "bris-malawi": {
+    "WRF-Vietnam": {
+        "title": "WRF-Vietnam",
         "format": "nc-static",
-        "path": "/lustre/storeB/project/bris-malawi/anemoi-forecasts/malawi/20260105T00-0_025.nc",
+        "path": "/data/wrfout_combined_cf.nc",
         "time_config": {
-            "start_time": "2026-01-05T00:00:00Z",
+            "start_time": "2026-01-17T00:00:00",
             "interval_hours": 6,
-            "duration_hours": 240
+            "duration_hours": 18
         },
         "variables": [
-            "air_temperature_2m",
-            "air_pressure_at_sea_level",
-            "precipitation_amount_acc"
+            "W",
+            "Q2",
+            "T2",
+            "PSFC",
+            "RAINC",
+            "RAINSH",
+            "RAINNC",
+            "CLDFRA",
+            "air_pressure",
+            "geopotential",
+            "air_potential_temperature"
         ],
         "vector_fields": {
-            "wind_10m_vector": {
-                "x": "x_wind_10m",
-                "y": "y_wind_10m",
-                "long_name": "Wind vector at 10m",
+            "wind_model_vector": {
+                "x": "U",
+                "y": "V",
+                "long_name": "Wind Vector (Model Levels)",
+                "units": "m/s",
                 "unit_conversion": {
                     "scale": 1.94384,
-                    "offset": 0
+                    "offset": 0.0
+                }
+            },
+            "wind_10m_vector": {
+                "x": "U10",
+                "y": "V10",
+                "long_name": "Wind Vector at 10m",
+                "units": "m/s",
+                "unit_conversion": {
+                    "scale": 1.94384,
+                    "offset": 0.0
                 }
             }
         },
         "style_config": {
-            "air_temperature_2m": {
+            "W": {
+                "title": "Vertical wind component",
+                "style_category": "vertical_velocity"
+            },
+            "geopotential": {
+                "title": "Geopotential",
+                "style_category": "energy"
+            },
+            "air_potential_temperature": {
+                "title": "Air potential temperature",
+                "style_category": "temperature_K"
+            },
+            "air_pressure": {
+                "title": "Air Pressure",
+                "style_category": "pressure",
+                "unit_conversion": {
+                    "scale": 0.01,
+                    "offset": 0.0
+                }
+            },
+            "Q2": {
+                "title": "Specific humidity at 2m",
+                "style_category": "specific_humidity",
+                "unit_conversion": {
+                    "scale": 1000.0,
+                    "offset": 0.0
+                }
+            },
+            "T2": {
                 "title": "Air temperature at 2m",
                 "style_category": "temperature_C",
                 "unit_conversion": {
@@ -32,29 +80,81 @@
                     "offset": -273.15
                 }
             },
-            "air_pressure_at_sea_level": {
-                "title": "Air pressure at sea level",
+            "PSFC": {
+                "title": "Surface pressure",
                 "style_category": "pressure",
                 "unit_conversion": {
                     "scale": 0.01,
                     "offset": 0.0
                 }
             },
-            "precipitation_amount_acc": {
-                "title": "Deaccumulated precipitation amount",
+            "RAINC": {
+                "title": "Deaccumulated cumulus precipitation",
                 "style_category": "amount",
                 "unit_conversion": {
-                    "scale": 1.0,
-                    "offset": 0.0,
                     "deaccumulate": true
+                }
+            },
+            "RAINSH": {
+                "title": "Deaccumulated shallow cumulus precipitation",
+                "style_category": "amount",
+                "unit_conversion": {
+                    "deaccumulate": true
+                }
+            },
+            "RAINNC": {
+                "title": "Deaccumulated grid-scale precipitation",
+                "style_category": "amount",
+                "unit_conversion": {
+                    "deaccumulate": true
+                }
+            },
+            "CLDFRA": {
+                "title": "Cloud fraction",
+                "style_category": "fraction/index/type/percentage"
+            }
+        },
+        "keywords": [
+            "WRF",
+            "Vietnam"
+        ]
+    },
+    "SWAN-Vietnam": {
+        "title": "SWAN-Vietnam",
+        "format": "nc-static",
+        "domain": "global",
+        "projection": "EPSG:4326",
+        "path": "/data/SWAN2026011712.nc",
+        "time_config": {
+            "start_time": "2026-01-17T12:00:00",
+            "interval_hours": 3,
+            "duration_hours": 249
+        },
+        "variables": [
+            "hs",
+            "tp"
+        ],
+        "style_config": {
+            "hs": {
+                "title": "Significant wave height",
+                "style_category": "wave_height",
+                "unit_conversion": {
+                    "scale": 0.0007629627,
+                    "offset": 25
+                }
+            },
+            "tp": {
+                "title": "Peak wave period",
+                "style_category": "period",
+                "unit_conversion": {
+                    "scale": 0.0007629627,
+                    "offset": 25
                 }
             }
         },
         "keywords": [
-            "bris",
-            "malawi",
-            "weather",
-            "forecast"
+            "SWAN",
+            "Vietnam"
         ]
     }
 }
