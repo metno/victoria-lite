@@ -54,7 +54,11 @@
             },
             "air_potential_temperature": {
                 "title": "Air potential temperature",
-                "style_category": "temperature_K"
+                "style_category": "temperature_C",
+                "unit_conversion": {
+                    "scale": 1.0,
+                    "offset": -273.15
+                }
             },
             "air_pressure": {
                 "title": "Air Pressure",
