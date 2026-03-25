@@ -10,24 +10,13 @@ This is a beta version based on a custom Victoria build. Once these changes are 
 
 To run this, you will need:
 - Docker and Docker Compose installed ([set up instuctions for MET internal laptops](https://it.brukerdok.met.no/klienter/linux/noble/50-installer-programvare.html#docker-og-docker-compose))
-- a [gitlab API token with read access to the registry](https://docs.gitlab.com/user/profile/personal_access_tokens/#create-a-personal-access-token). Once you have this, run `docker login registry.met.no` and use the access token to log in.
-- Access to clone from gitlab.met.no, either via ssh or https.
-- MET Norway VPN access.
-
-(This will be much simpler once the code is made openly available in the future).
 
 ### Quickstart
 
 - Clone the repository.
 
 ```
-git clone git@gitlab.met.no:met/proj/magellan/victoria-lite.git
-```
-
-- If using a file on Lustre, make sure the Lustre mount is initialized before starting the Docker container. It is enough to run:
-
-```
-ls /lustre/storeB
+git clone git@github.com:metno/victoria-lite.git
 ```
 
 If you want to use your own local data directory, set `VICTORIA_DATA_PATH`, e.g.
@@ -35,6 +24,8 @@ If you want to use your own local data directory, set `VICTORIA_DATA_PATH`, e.g.
 ```
 export VICTORIA_DATA_PATH=/absolute/path/to/your/data
 ```
+
+Alternatively, you can place data in a folder `data` under victoria-lite, which will automatically be mounted into the image.
 
 - Then, to start the server, run:
 
@@ -94,9 +85,9 @@ The format should be either `nc-static` for NetCDF files or `zarr-static` for Za
 ```
         "format": "nc-static",
 ```
-`path` is the path to the data _inside the Docker container_. Lustre is mounted in the container automatically, so if the file is on Lustre you can simply use the file path. If the data is on your local PC, you can either place it in a folder called `data/` in the directory you run `docker compose up` from, or set the `VICTORIA_DATA_PATH` environment variable to point to the folder containing the file. In both cases, the file will then be available at `/data/<my-file.nc>`.
+`path` is the path to the data _inside the Docker container_. If the data is on your local PC or a connected network drive, you can either place it in a folder called `data/` in the directory you run `docker compose up` from, or set the `VICTORIA_DATA_PATH` environment variable to point to the folder containing the file. In both cases, the file will then be available at `/data/<my-file.nc>`.
 ```
-        "path": "/lustre/storeB/project/bris-malawi/anemoi-forecasts/malawi/20260105T00-0_025.nc",
+        "path": "/data/20260105T00-0_025.nc",
 ```
 
 The time config currently requires you to set the model start time, time step (in hours) and length of the model run (in hours). This will be removed in later versions.
@@ -179,7 +170,7 @@ The full config for one model then looks something like:
 {
     "bris-malawi": {
         "format": "nc-static",
-        "path": "/lustre/storeB/project/bris-malawi/anemoi-forecasts/malawi/20260105T00-0_025.nc",
+        "path": "/data/20260105T00-0_025.nc",
         "time_config": {
             "start_time": "2026-01-05T00:00:00Z",
             "interval_hours": 6,
@@ -271,6 +262,5 @@ Try copying and adapting existing styles to see if you can get what you want. If
 
 - Check that the time step is within the model range.
 - Check for any errors in the terminal log
-    - If you see `[WARNING] File not found at path: /lustre/storeB/project/...`, stop the server, run `ls /lustre/storeB`, and restart the server. This is because the Lustre mount is not always alive when the Docker container starts.
 - There may be an issue reading the projection. In that case, try adding a projection parameter in the model config, e.g. `projection: "EPSG:4326"`, where you can specify an EPSG code or proj string (use an EPSG code rather than a proj string if possible). This attempts to override the model projection. If this works, check that the projection is correctly defined in the NetCDF file.
 - Check that the data values are within the ranges specified by the style palette. The legend and the `i` icon can be useful in GeoWeb for check this.
