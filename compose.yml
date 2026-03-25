@@ -1,6 +1,6 @@
 services:
   api:
-    image: "registry.met.no/met/proj/magellan/victoria-maps/victoria-lite:v1.1.0-beta"
+    image: "ghcr.io/metno/victoria-lite:v1.1.0-beta"
     entrypoint: ["/bin/bash", "/entrypoint.sh"]
     ports:
       - "8000:8000"
@@ -16,7 +16,6 @@ services:
       - ENABLE_VOLCANO=False
     volumes:
       - ${VICTORIA_DATA_PATH:-./data}:/data
-      - /lustre:/lustre
       - ./config/:/app/data/config_and_info_files/
       - ./entrypoint.sh:/entrypoint.sh:ro
     depends_on:
@@ -31,7 +30,7 @@ services:
     restart: on-failure
 
   mongo:
-    image: "registry.met.no/met/proj/magellan/image-mirror/mongo:8.0"
+    image: "mongo:8.0"
     restart: always
     ports:
       - "27017:27017"

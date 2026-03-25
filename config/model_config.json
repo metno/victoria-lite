@@ -1,7 +1,7 @@
 {
     "bris-malawi": {
         "format": "nc-static",
-        "path": "/lustre/storeB/project/bris-malawi/anemoi-forecasts/malawi/20260105T00-0_025.nc",
+        "path": "/data/20260105T00-0_025.nc",
         "time_config": {
             "start_time": "2026-01-05T00:00:00Z",
             "interval_hours": 6,
