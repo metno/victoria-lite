@@ -3,7 +3,7 @@
         "title": "COSMO-Malawi",
         "format": "nc-static",
         "domain": "global",
-        "path": "/app/data/model_data/full2025-12-26.nc",
+        "path": "/data/full2025-12-26.nc",
         "time_config": {
             "start_time": "2025-12-26T00:00:00",
             "interval_hours": 1,
@@ -20,13 +20,11 @@
             "wind_10m_vector": {
                 "x": "10u",
                 "y": "10v",
-                "long_name": "Eastward wind",
-                "units": "m/s",
-                "dims": [
-                    "time",
-                    "lat",
-                    "lon"
-                ]
+                "long_name": "Wind vector at 10m",
+                "unit_conversion": {
+                    "scale": 1.94384,
+                    "offset": 0
+                }
             }
         },
         "style_config": {
@@ -39,7 +37,7 @@
                 }
             },
             "tp": {
-                "title": "Total Precipitation",
+                "title": "Deaccumulated precipitation amount",
                 "style_category": "amount",
                 "unit_conversion": {
                     "scale": 1.0,
@@ -49,15 +47,14 @@
             },
             "RELHUM_2M": {
                 "title": "2m Relative Humidity",
-                "style_category": "amount",
+                "style_category": "relative_humidity",
                 "unit_conversion": {
                     "scale": 1.0,
-                    "offset": 0.0,
-                    "deaccumulate": true
+                    "offset": 0.0
                 }
             },
             "2t": {
-                "title": "Air temperature",
+                "title": "Air temperature 2m",
                 "style_category": "temperature_C",
                 "unit_conversion": {
                     "scale": 1.0,
@@ -66,7 +63,7 @@
             }
         },
         "keywords": [
-            "bris",
+            "COSMO",
             "malawi",
             "weather",
             "forecast"
