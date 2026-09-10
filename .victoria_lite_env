@@ -7,3 +7,5 @@ path_palettes_config=app/data/config_and_info_files/palettes.json
 path_unit_palettes_config=app/data/config_and_info_files/unit_palette_config.json
 path_vector_palettes_config=app/data/config_and_info_files/vector_palette_config.json
 path_wms_config=/app/data/config_and_info_files/wms_config.json
+
+service_url=http://localhost:8000
