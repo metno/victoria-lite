@@ -3,7 +3,7 @@
         "title": "COSMO-Malawi",
         "format": "nc-static",
         "domain": "global",
-        "path": "/data/cosmo-full2025-12-26.nc",
+        "path": "/data/full2025-12-26.nc",
         "time_config": {
             "start_time": "2025-12-26T00:00:00",
             "interval_hours": 1,
@@ -71,12 +71,7 @@
     },
     "bris-malawi": {
         "format": "nc-static",
-        "path": "/data/bris-malawi-20260105T00-0_025.nc",
-        "time_config": {
-            "start_time": "2026-01-05T00:00:00Z",
-            "interval_hours": 6,
-            "duration_hours": 240
-        },
+        "path": "/data/20260105T00-0_025.nc",
         "variables": [
             "air_temperature_2m",
             "air_pressure_at_sea_level",
@@ -90,33 +85,6 @@
                 "unit_conversion": {
                     "scale": 1.94384,
                     "offset": 0
-                }
-            }
-        },
-        "style_config": {
-            "air_temperature_2m": {
-                "title": "Air temperature at 2m",
-                "style_category": "temperature_C",
-                "unit_conversion": {
-                    "scale": 1.0,
-                    "offset": -273.15
-                }
-            },
-            "air_pressure_at_sea_level": {
-                "title": "Air pressure at sea level",
-                "style_category": "pressure",
-                "unit_conversion": {
-                    "scale": 0.01,
-                    "offset": 0.0
-                }
-            },
-            "precipitation_amount_acc": {
-                "title": "Deaccumulated precipitation amount",
-                "style_category": "amount",
-                "unit_conversion": {
-                    "scale": 1.0,
-                    "offset": 0.0,
-                    "deaccumulate": true
                 }
             }
         },
