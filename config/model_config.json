@@ -3,12 +3,7 @@
         "title": "COSMO-Malawi",
         "format": "nc-static",
         "domain": "global",
-        "path": "/data/full2025-12-26.nc",
-        "time_config": {
-            "start_time": "2025-12-26T00:00:00",
-            "interval_hours": 1,
-            "duration_hours": 126
-        },
+        "path": "/data/full2025-12-26-netcdf4.nc",
         "variables": [
             "msl",
             "tp",
@@ -27,41 +22,6 @@
                 }
             }
         },
-        "style_config": {
-            "msl": {
-                "title": "Mean sea level pressure",
-                "style_category": "pressure",
-                "unit_conversion": {
-                    "scale": 0.01,
-                    "offset": 0.0
-                }
-            },
-            "tp": {
-                "title": "Deaccumulated precipitation amount",
-                "style_category": "amount",
-                "unit_conversion": {
-                    "scale": 1.0,
-                    "offset": 0.0,
-                    "deaccumulate": true
-                }
-            },
-            "RELHUM_2M": {
-                "title": "2m Relative Humidity",
-                "style_category": "relative_humidity",
-                "unit_conversion": {
-                    "scale": 1.0,
-                    "offset": 0.0
-                }
-            },
-            "2t": {
-                "title": "Air temperature 2m",
-                "style_category": "temperature_C",
-                "unit_conversion": {
-                    "scale": 1.0,
-                    "offset": -273.15
-                }
-            }
-        },
         "keywords": [
             "COSMO",
             "malawi",
@@ -69,27 +29,25 @@
             "forecast"
         ]
     },
-    "bris-malawi": {
+    "WRF-Malawi": {
+        "title": "WRF-Malawi",
         "format": "nc-static",
-        "path": "/data/20260105T00-0_025.nc",
+        "domain": "global",
+        "path": "/data/WRF/wrfout_surface_2026-05-14_00_cf.nc",
         "variables": [
-            "air_temperature_2m",
-            "air_pressure_at_sea_level",
-            "precipitation_amount_acc"
+            "tp",
+            "T2",
+            "slp",
+            "td2",
+            "rh2",
+            "wspd10",
+            "wdir10",
+            "lc",
+            "mc",
+            "hc"
         ],
-        "vector_fields": {
-            "wind_10m_vector": {
-                "x": "x_wind_10m",
-                "y": "y_wind_10m",
-                "long_name": "Wind vector at 10m",
-                "unit_conversion": {
-                    "scale": 1.94384,
-                    "offset": 0
-                }
-            }
-        },
         "keywords": [
-            "bris",
+            "WRF",
             "malawi",
             "weather",
             "forecast"

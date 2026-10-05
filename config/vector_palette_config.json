@@ -348,6 +348,17 @@
             }
         ]
     },
+    "coastline": {
+        "style_by_attribute": "layer",
+        "style_categories": [
+            {
+                "name": "land",
+                "outlinecolor": "black",
+                "thickness": 0.5,
+                "no_fill": true
+            }
+        ]
+    },
     "white_land": {
         "style_by_attribute": "layer",
         "style_categories": [
