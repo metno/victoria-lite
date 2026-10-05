@@ -16,8 +16,16 @@ To run this, you will need:
 - Clone the repository.
 
 ```
-git clone git@github.com:metno/victoria-lite.git
+git clone https://github.com/metno/victoria-lite.git
 ```
+
+If you are working in a country which has a preconfigured setup you need to checkout the branch for your country (we currently have setups for malawi, tanzania and vietnam):
+
+```
+git checkout <country-name>
+```
+
+If you do not have a preconfigured setup, you will have to read the instructions under "How to configure data sources" and create a configuration before proceeding.
 
 If you want to use your own local data directory, set `VICTORIA_DATA_PATH`, e.g.
 
@@ -55,6 +63,8 @@ http://localhost:8000/wms?service=WMS&request=GetCapabilities
 ```
 docker compose down --volumes
 ```
+
+It is a good tip to run `docker compose down --volumes` whenever your configuration or datafiles change.
 
 ### How to configure data sources
 
