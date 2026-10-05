@@ -44,7 +44,7 @@ services:
     attach: false
 
   load_config:
-    image: "victoria-maps-api"
+    image: "ghcr.io/metno/victoria-lite:v2.1.5"
     command:
       - /bin/bash
       - -lc
