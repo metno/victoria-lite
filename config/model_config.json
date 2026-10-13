@@ -33,7 +33,7 @@
         "title": "WRF-Malawi",
         "format": "nc-static",
         "domain": "global",
-        "path": "/data/WRF/wrfout_surface_2026-05-14_00_cf.nc",
+        "path": "/data/wrfout_surface_2026-05-14_00_cf.nc",
         "variables": [
             "tp",
             "T2",
