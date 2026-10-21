@@ -7270,6 +7270,22 @@
         }
     },
     "temperature_C": {
+        "Temperature_2m_warm": {
+            "discrete": true,
+            "gradient": true,
+            "intervals": [
+                -999999999,
+                10,
+                15,
+                20,
+                25,
+                30,
+                35,
+                999999999
+            ],
+            "opacity": 63,
+            "palette": "Temperature_2m_warm"
+        },
         "Temperature_2_m": {
             "discrete": true,
             "gradient": true,

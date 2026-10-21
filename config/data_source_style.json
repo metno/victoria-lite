@@ -2,40 +2,21 @@
     "COSMO-Malawi": {
         "layer_styling": {
             "msl": {
-                "title": "Mean sea level pressure",
-                "style_category": "pressure",
-                "unit_conversion": {
-                    "scale": 0.01,
-                    "offset": 0.0
-                }
+                "style_category": "pressure"
             },
             "tp": {
-                "title": "Deaccumulated precipitation amount",
-                "style_category": "amount",
-                "unit_conversion": {
-                    "scale": 1.0,
-                    "offset": 0.0,
-                    "deaccumulate": true
-                }
+                "style_category": "amount"
             },
             "RELHUM_2M": {
-                "title": "2m Relative Humidity",
-                "style_category": "relative_humidity",
-                "unit_conversion": {
-                    "scale": 1.0,
-                    "offset": 0.0
-                }
+                "style_category": "relative_humidity"
             },
             "2t": {
-                "title": "Air temperature 2m",
-                "style_category": "temperature_C",
-                "unit_conversion": {
-                    "scale": 1.0,
-                    "offset": -273.15
-                }
+                "style_category": "temperature_C"
+            },
+            "tcc": {
+                "style_category": "fraction"
             },
             "wind_10m_vector": {
-                "title": "Wind vector at 10m",
                 "style_category": "wind_barb"
             }
         }
@@ -43,45 +24,33 @@
     "WRF-Malawi": {
         "layer_styling": {
             "tp": {
-                "title": "Deaccumulated precipitation",
-                "style_category": "amount",
-                "unit_conversion": {
-                    "deaccumulate": true
-                }
+                "style_category": "amount"
             },
             "T2": {
-                "title": "Air temperature at 2m",
                 "style_category": "temperature_C"
             },
             "slp": {
-                "title": "Mean sea level pressure",
                 "style_category": "pressure"
             },
             "td2": {
-                "title": "Dew point temperature at 2m",
                 "style_category": "temperature_C"
             },
             "rh2": {
-                "title": "Relative humidity at 2m",
                 "style_category": "relative_humidity"
             },
             "wspd10": {
-                "title": "Wind speed at 10m"
+                "style_category": "speed_ms"
             },
             "wdir10": {
-                "title": "Wind direction at 10m",
                 "style_category": "direction_deg_from_direction"
             },
             "lc": {
-                "title": "Low cloud fraction",
                 "style_category": "fraction"
             },
             "mc": {
-                "title": "Medium cloud fraction",
                 "style_category": "fraction"
             },
             "hc": {
-                "title": "High cloud fraction",
                 "style_category": "fraction"
             }
         }

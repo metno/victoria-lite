@@ -154,6 +154,15 @@
         "#DCEDC1",
         "#FF8B94"
     ],
+    "Temperature_2m_warm": [
+        "#2C7BB6",
+        "#00A6CA",
+        "#ABDDA4",
+        "#FFFFBF",
+        "#FDAE61",
+        "#F46D43",
+        "#A50026"
+    ],
     "SeNorge_Temperature": [
         "#CC0000",
         "#FF1900",

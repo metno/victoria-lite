@@ -22,6 +22,40 @@
                 }
             }
         },
+        "layer_config": {
+            "msl": {
+                "title": "Mean sea level pressure",
+                "unit_conversion": {
+                    "scale": 0.01,
+                    "offset": 0.0
+                }
+            },
+            "tp": {
+                "title": "Deaccumulated precipitation amount",
+                "unit_conversion": {
+                    "deaccumulate": true
+                }
+            },
+            "RELHUM_2M": {
+                "title": "2m Relative Humidity"
+            },
+            "2t": {
+                "title": "Air temperature 2m",
+                "unit_conversion": {
+                    "offset": -273.15
+                }
+            },
+            "tcc": {
+                "title": "Total cloud cover",
+                "unit_conversion": {
+                    "scale": 0.01,
+                    "offset": 0
+                }
+            },
+            "wind_10m_vector": {
+                "title": "Wind vector at 10m"
+            }
+        },
         "keywords": [
             "COSMO",
             "malawi",
@@ -34,6 +68,7 @@
         "format": "nc-static",
         "domain": "global",
         "path": "/data/wrfout_surface_2026-05-14_00_cf.nc",
+        "projection": "EPSG:4326",
         "variables": [
             "tp",
             "T2",
@@ -46,6 +81,41 @@
             "mc",
             "hc"
         ],
+        "layer_config": {
+            "tp": {
+                "title": "Deaccumulated precipitation",
+                "unit_conversion": {
+                    "deaccumulate": true
+                }
+            },
+            "T2": {
+                "title": "Air temperature at 2m"
+            },
+            "slp": {
+                "title": "Mean sea level pressure"
+            },
+            "td2": {
+                "title": "Dew point temperature at 2m"
+            },
+            "rh2": {
+                "title": "Relative humidity at 2m"
+            },
+            "wspd10": {
+                "title": "Wind speed at 10m"
+            },
+            "wdir10": {
+                "title": "Wind direction at 10m"
+            },
+            "lc": {
+                "title": "Low cloud fraction"
+            },
+            "mc": {
+                "title": "Medium cloud fraction"
+            },
+            "hc": {
+                "title": "High cloud fraction"
+            }
+        },
         "keywords": [
             "WRF",
             "malawi",
