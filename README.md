@@ -68,7 +68,7 @@ It is a good tip to run `docker compose down --volumes` whenever your configurat
 
 ### How to configure data sources
 
-The main place to set up a new model is `config/model_config.json`. The configuration file can contain as many different models as you like, e.g.
+Set up a model in `config/model_config.json`. This file can contain as many different models as you like, e.g.
 
 ```
 {
@@ -100,14 +100,6 @@ The format should be either `nc-static` for NetCDF files or `zarr-static` for Za
         "path": "/data/20260105T00-0_025.nc",
 ```
 
-The time config currently requires you to set the model start time, time step (in hours) and length of the model run (in hours). This will be removed in later versions.
-```
-        "time_config": {
-            "start_time": "2026-01-05T00:00:00Z",
-            "interval_hours": 6,
-            "duration_hours": 240
-        },
-```
 Under `variables`, list the scalar variable names you would like to view from the NetCDF file.
 ```
         "variables": [
@@ -130,13 +122,12 @@ Vector fields (i.e., arrows or wind barbs, which have two components) have a sli
             }
         },
 ```
-Victoria attempts to match a style to a parameter based on parameter units. This works in some cases, but in others the chosen styles may not be what you want. For more control, use the `style_config` section. Here, list each variable you defined above and explicitly set a style category (from `unit_palette_config.json`). You can also override the layer title and set unit conversion by scaling and offset. Setting `"deaccumulate": true` calculates the difference between timesteps, primarily for precipitation fields that are often accumulated in NetCDF files.
+Use `layer_config` to override a layer's display title and convert its values. The layer keys should match a variable or vector field defined above. Set `"deaccumulate": true` to calculate the difference between timesteps, primarily for precipitation fields that are accumulated in NetCDF files.
 
 ```
-        "style_config": {
+        "layer_config": {
             "air_temperature_2m": {
                 "title": "Air temperature at 2m",
-                "style_category": "temperature_C",
                 "unit_conversion": {
                     "scale": 1.0,
                     "offset": -273.15
@@ -144,7 +135,6 @@ Victoria attempts to match a style to a parameter based on parameter units. This
             },
             "air_pressure_at_sea_level": {
                 "title": "Air pressure at sea level",
-                "style_category": "pressure",
                 "unit_conversion": {
                     "scale": 0.01,
                     "offset": 0.0
@@ -152,7 +142,6 @@ Victoria attempts to match a style to a parameter based on parameter units. This
             },
             "precipitation_amount_acc": {
                 "title": "Deaccumulated precipitation amount",
-                "style_category": "amount",
                 "unit_conversion": {
                     "scale": 1.0,
                     "offset": 0.0,
@@ -202,10 +191,9 @@ The full config for one model then looks something like:
                 }
             }
         },
-        "style_config": {
+        "layer_config": {
             "air_temperature_2m": {
                 "title": "Air temperature at 2m",
-                "style_category": "temperature_C",
                 "unit_conversion": {
                     "scale": 1.0,
                     "offset": -273.15
@@ -213,7 +201,6 @@ The full config for one model then looks something like:
             },
             "air_pressure_at_sea_level": {
                 "title": "Air pressure at sea level",
-                "style_category": "pressure",
                 "unit_conversion": {
                     "scale": 0.01,
                     "offset": 0.0
@@ -221,7 +208,6 @@ The full config for one model then looks something like:
             },
             "precipitation_amount_acc": {
                 "title": "Deaccumulated precipitation amount",
-                "style_category": "amount",
                 "unit_conversion": {
                     "scale": 1.0,
                     "offset": 0.0,
@@ -238,6 +224,31 @@ The full config for one model then looks something like:
     }
 }
 ```
+
+Style selection is configured separately in `config/data_source_style.json`. Use the same model key as in `model_config.json`, then map each layer name to a style category defined in `config/unit_style_config.json`. Victoria can select a style based on the data's units when no category is specified; set `style_category` to choose a specific category.
+
+```
+{
+    "bris-malawi": {
+        "layer_styling": {
+            "air_temperature_2m": {
+                "style_category": "temperature_C"
+            },
+            "air_pressure_at_sea_level": {
+                "style_category": "pressure"
+            },
+            "precipitation_amount_acc": {
+                "style_category": "amount"
+            },
+            "wind_10m_vector": {
+                "style_category": "wind_barb"
+            }
+        }
+    }
+}
+```
+
+The layer names must match the variables or vector fields in the model config. For another model, add a top-level entry named after that model in `data_source_style.json` as well.
 
 ### WRF NetCDF files
 
@@ -258,11 +269,11 @@ Depending on the size of the model files, conversion can take some time and stor
 
 ### Adding new styles and customising existing styles
 
-The currently available colour palettes are defined in `palettes.json`. These are used by style definitions in `unit_palette_config.json`. The `unit_palette_config.json` file starts with a list of style categories that work with different units. Victoria uses this to automatically add a style based on the unit defined in the NetCDF file if you do not define a specific parameter under `style_config` in `model_config.json`; however, this is not particularly smart and it just picks the first matching style category in the list, so it may be necessary to choose a style category explicitly. Each style category contains a list of styles that are available for the layer (selectable from the style dropdown in GeoWeb).
+The currently available colour palettes are defined in `config/palettes.json`. These are used by the style definitions in `config/unit_style_config.json`. Each style category contains the styles available for a layer (selectable from the style dropdown in GeoWeb). If you do not specify a style category for a layer in `data_source_style.json`, Victoria attempts to select one based on the data's units.
 
 Each style name either matches a palette name, or contains a reference to which colour palette it uses, e.g. `"palette": "Yellow-orange"`. It then defines a list of intervals that match the number of colours in the selected palette, and options for specifying whether the style should be discrete colours or a gradient.
 
-The simplest way to add a new style is to add it under an existing category. If you want to create your own category, you must define it at the top of the `unit_palette_config.json` file with relevant units. Then add the category definition under `category` with the desired style configurations.
+The simplest way to add a new style is to add it under an existing category in `unit_style_config.json`. If you want to create your own category, add the category definition there with the desired style configurations.
 
 Try copying and adapting existing styles to see if you can get what you want. If you have problems, contact a member of the Victoria team.
 
