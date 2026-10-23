@@ -1,0 +1,346 @@
+{
+    "altitude": [
+        "ft",
+        "feet"
+    ],
+    "amount": [
+        "mm",
+        "kg/m²",
+        "kg/m^2",
+        "kg/m2",
+        "kg m**-2"
+    ],
+    "direction_deg": [
+        "°",
+        "degree",
+        "degrees"
+    ],
+    "direction_rad": [
+        "rad",
+        "radians",
+        "radian"
+    ],
+    "density": [
+        "kg/m³",
+        "kg/m3"
+    ],
+    "diffusion/drift transport/strokes transport": [
+        "m²/s",
+        "meter2 second-1",
+        "m2/s",
+        "m^2/s",
+        "m2 s-1"
+    ],
+    "drag s2": [
+        "W/s²",
+        "W/s2"
+    ],
+    "drag s": [
+        "W/s"
+    ],
+    "drag K/s": [
+        "W K s⁻¹",
+        "W/s/K"
+    ],
+    "energy": [
+        "J/kg",
+        "m^2/s^2",
+        "m2 s-2"
+    ],
+    "flux": [
+        "W/m²",
+        "W/m2",
+        "W/m^2",
+        "W*m^-2",
+        "W m-2"
+    ],
+    "flux wrt time": [
+        "J/m²",
+        "W s/m^2",
+        "J m-2",
+        "J/m^2"
+    ],
+    "fraction/index/type/percentage": [
+        "-",
+        "(0 - 1)",
+        "kg/kg",
+        "m3/m3",
+        "m^3/m^3",
+        "1",
+        "%"
+    ],
+    "frequency": [
+        "s⁻¹",
+        "s-1",
+        "1/s"
+    ],
+    "height/thickness/visibility": [
+        "m",
+        "meter"
+    ],
+    "icing_per_hour": [
+        "cm/h"
+    ],
+    "lightning_density": [
+        "km² day",
+        "km^2 day^1"
+    ],
+    "momentum flux/zonal stress": [
+        "N/m²",
+        "N/m^2",
+        "N*m^-2",
+        "kg/ms2"
+    ],
+    "per mille": [
+        "‰",
+        "1e-3"
+    ],
+    "percentage": [
+        "%"
+    ],
+    "period": [
+        "s"
+    ],
+    "potential vorticity": [
+        "K m² kg⁻¹ s⁻¹",
+        "K m2 kg-1 s-1"
+    ],
+    "pressure": [
+        "hPa",
+        "Pa"
+    ],
+    "pressure_tendency": [
+        "Pa/s",
+        "Pa s-1"
+    ],
+    "spectrum": [
+        "m² s",
+        "m**2 s"
+    ],
+    "speed_ms": [
+        "m/s",
+        "m s-1",
+        "meter second-1"
+    ],
+    "speed_knots": [
+        "knots",
+        "kts"
+    ],
+    "stress": [
+        "N s m⁻²",
+        "N s / m^2"
+    ],
+    "temperature_K": [
+        "K"
+    ],
+    "temperature_C": [
+        "°C",
+        "Celsius",
+        "celsius",
+        "C"
+    ],
+    "unknown": [
+        "?"
+    ],
+    "amount_1h": [
+        "mm"
+    ],
+    "amount_3h": [
+        "mm"
+    ],
+    "amount_6h": [
+        "mm"
+    ],
+    "amount_12h": [
+        "mm"
+    ],
+    "amount_24h": [
+        "mm"
+    ],
+    "amount_snow": [
+        "cm"
+    ],
+    "amount_snow_1h": [
+        "cm"
+    ],
+    "amount_snow_3h": [
+        "cm"
+    ],
+    "amount_snow_6h": [
+        "cm"
+    ],
+    "amount_snow_12h": [
+        "cm"
+    ],
+    "amount_snow_24h": [
+        "cm"
+    ],
+    "charnock": [
+        "-"
+    ],
+    "cat_height": [
+        "m"
+    ],
+    "cat_height_hfeet": [
+        "hfeet"
+    ],
+    "cat_index": [
+        "-"
+    ],
+    "contrails_hfeet": [
+        "hfeet"
+    ],
+    "contrails_index": [
+        "-"
+    ],
+    "direction_deg_from_direction": [
+        "°"
+    ],
+    "direction_deg_to_direction": [
+        "°"
+    ],
+    "drifty": [
+        "-"
+    ],
+    "ducting_sum": [
+        "-"
+    ],
+    "ducting_top_bottom": [
+        "-"
+    ],
+    "EFI": [
+        "-"
+    ],
+    "EFI_(temperature)": [
+        "-"
+    ],
+    "fjord_depth": [
+        "m"
+    ],
+    "flux_small": [
+        "W/m²",
+        "W/m2",
+        "W/m^2",
+        "W*m^-2",
+        "W m-2"
+    ],
+    "forest": [
+        "-"
+    ],
+    "fraction": [
+        "-"
+    ],
+    "icing": [
+        "m"
+    ],
+    "icing_hfeet": [
+        "hfeet"
+    ],
+    "index": [
+        "-"
+    ],
+    "lightning": [
+        "-"
+    ],
+    "max_tke": [
+        "m/s"
+    ],
+    "min_w": [
+        "m/s"
+    ],
+    "norshelf_category": [
+        "-"
+    ],
+    "norshelf_depth": [
+        "m"
+    ],
+    "pressure_extra_colors": [
+        "hPa"
+    ],
+    "probability": [
+        "-"
+    ],
+    "relative_humidity": [
+        "%"
+    ],
+    "SOT_index": [
+        "-"
+    ],
+    "sea_vector": [
+        "m/s"
+    ],
+    "specific_humidity": [
+        "g/kg"
+    ],
+    "speed_ms_sea": [
+        "m/s"
+    ],
+    "temperature_C_sea": [
+        "°C"
+    ],
+    "temperature_C_diff": [
+        "°C",
+        "celsius"
+    ],
+    "thunder": [
+        "-"
+    ],
+    "thunder_indices": [
+        "-"
+    ],
+    "thickness_500_1000": [
+        "m"
+    ],
+    "turbulence": [
+        "m/s"
+    ],
+    "type": [
+        "-"
+    ],
+    "vertical_velocity": [
+        "m/s"
+    ],
+    "wave_height": [
+        "m"
+    ],
+    "wave_length": [
+        "m"
+    ],
+    "wind_barb": [
+        "knots"
+    ],
+    "wind_shear_levels": [
+        "knots"
+    ],
+    "wind_shear_horizontal": [
+        "100 km/s"
+    ],
+    "wind_shear_vertical": [
+        "1000 ft/s"
+    ],
+    "zeta": [
+        "m",
+        "meter"
+    ],
+    "senorge_rainfall_7day": [
+        "mm"
+    ],
+    "senorge_rainfall_monthly": [
+        "mm"
+    ],
+    "senorge_rainfall_yearly": [
+        "mm"
+    ],
+    "senorge_rainfall_monthly_devn": [
+        "%"
+    ],
+    "senorge_rainfall_yearly_devn": [
+        "%"
+    ],
+    "senorge_temperature": [
+        "°C"
+    ],
+    "senorge_temperature_devn": [
+        "°C"
+    ]
+}

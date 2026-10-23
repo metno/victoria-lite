@@ -1,13 +1,18 @@
 {
-    "supported_crs": [
-        "EPSG:3857",
-        "EPSG:28992",
-        "EPSG:5041",
-        "EPSG:32661",
-        "EPSG:3411",
-        "EPSG:3412",
-        "EPSG:3575",
-        "ESRI:54030",
-        "EPSG:3067"
-    ]
+    "supported_crs": {
+        "rotate_vectors": [
+            "EPSG:3857",
+            "EPSG:3575",
+            "EPSG:3411",
+            "EPSG:3412",
+            "EPSG:5041",
+            "EPSG:28992",
+            "EPSG:3067"
+        ],
+        "add_to_metadata": [
+            "ESRI:54030",
+            "EPSG:32661",
+            "EPSG:25833"
+        ]
+    }
 }

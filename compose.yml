@@ -1,7 +1,6 @@
 services:
   api:
-    image: "ghcr.io/metno/victoria-lite:v1.1.0-beta"
-    entrypoint: ["/bin/bash", "/entrypoint.sh"]
+    image: "ghcr.io/metno/victoria-lite:v2.1.5"
     ports:
       - "8000:8000"
     env_file:
@@ -11,13 +10,13 @@ services:
       - MONGO_USER=status
       - MONGO_PASSWORD=password
       - ENABLE_ADMIN_ROUTES=true
-      - ENABLE_ZARR_S3=False
+      - ENABLE_ZARR=False
+      - ENABLE_S3=False
       - ENABLE_DRIFTY=False
       - ENABLE_VOLCANO=False
     volumes:
       - ${VICTORIA_DATA_PATH:-./data}:/data
       - ./config/:/app/data/config_and_info_files/
-      - ./entrypoint.sh:/entrypoint.sh:ro
     depends_on:
       mongo:
         condition: service_started
@@ -41,3 +40,20 @@ services:
       MONGO_PASSWORD: password
     volumes:
       - ./mongodb/docker-entrypoint-initdb.d/mongo-init.js:/docker-entrypoint-initdb.d/mongo-init.js:ro
+    attach: false
+
+  load_config:
+    image: "victoria-maps-api"
+    command:
+      - /bin/bash
+      - -lc
+      - |
+        /scripts/load_config_to_api.py -c /config/ -u http://api:8000/styles
+        curl -X 'GET' 'http://api:8000/admin/update-capabilities'
+        echo '#### Styles Loaded. Capabilities updated. API is ready to use. ####'
+    volumes:
+      - ./config/:/config
+      - ./scripts:/scripts
+    depends_on:
+      api:
+        condition: service_healthy

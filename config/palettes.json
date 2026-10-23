@@ -68,6 +68,30 @@
     "graywhite": [
         "#E0E0E0"
     ],
+    "Contour_blue": [
+        "#0000FF"
+    ],
+    "Contour_red": [
+        "#FF0000"
+    ],
+    "Contour_green": [
+        "#26734d"
+    ],
+    "Contour_black": [
+        "#000000"
+    ],
+    "Contour_magenta": [
+        "#FF00FF"
+    ],
+    "Contour_cyan": [
+        "#00FFFF"
+    ],
+    "Contour_orange": [
+        "#FF5900"
+    ],
+    "Contour_neon_green": [
+        "#00FF00"
+    ],
     "YR_precipitation": [
         "#B3D6FF",
         "#99C9FF",
@@ -269,6 +293,59 @@
         "#EBEBFF",
         "#F5F5FF"
     ],
+    "Blue-white-red": [
+        "#000091",
+        "#0303B9",
+        "#0031C6",
+        "#0046D0",
+        "#045EE6",
+        "#2F7AEB",
+        "#3B87FF",
+        "#5799FF",
+        "#6EABF9",
+        "#7FBAF6",
+        "#95CEFF",
+        "#B0D9FF",
+        "#C7E5FF",
+        "#E4F1FC",
+        "#FFF5F5",
+        "#FFEBEB",
+        "#FFE1E1",
+        "#FFD7D7",
+        "#FFC8C8",
+        "#FFAFAF",
+        "#FF9696",
+        "#FF7D7D",
+        "#FF6464",
+        "#FF4B4B",
+        "#FF3232",
+        "#FF1919",
+        "#FF0000"
+    ],
+    "Blue-white-red-white": [
+        "#1919FF",
+        "#3232FF",
+        "#4B4BFF",
+        "#6464FF",
+        "#7D7DFF",
+        "#9696FF",
+        "#AFAFFF",
+        "#C8C8FF",
+        "#D7D7FF",
+        "#E1E1FF",
+        "#EBEBFF",
+        "#FF1919",
+        "#FF3232",
+        "#FF4B4B",
+        "#FF6464",
+        "#FF7D7D",
+        "#FF9696",
+        "#FFAFAF",
+        "#FFC8C8",
+        "#FFD7D7",
+        "#FFE1E1",
+        "#FFF5F5"
+    ],
     "Ice": [
         "#8CFFA0",
         "#FFFF00",
@@ -317,6 +394,21 @@
         "#FFAF00",
         "#FF5500",
         "#FF0000"
+    ],
+    "Standard_erdapfel": [
+        "#43bbda",
+        "#43f7f7",
+        "#43dabb",
+        "#43bb7f",
+        "#419c41",
+        "#7fbb43",
+        "#bbda43",
+        "#f7f743",
+        "#f7bb43",
+        "#f67e42",
+        "#f84444",
+        "#d84a8a",
+        "#8b5bb8"
     ],
     "Standard_probability": [
         "#00FFFF",
@@ -397,21 +489,6 @@
         "#418446",
         "#204223"
     ],
-    "Contour_blue": [
-        "#0000FF"
-    ],
-    "Contour_red": [
-        "#FF0000"
-    ],
-    "Contour_green": [
-        "#26734d"
-    ],
-    "Contour_black": [
-        "#000000"
-    ],
-    "Contour_magenta": [
-        "#FF00FF"
-    ],
     "Orange_red": [
         "#FFAF6E",
         "#FF1414"
@@ -444,6 +521,10 @@
         "#e2e2e3",
         "#c3c3c7"
     ],
+    "White_gray_shade": [
+        "#F5F5F5",
+        "#e2e2e3"
+    ],
     "Precipitation": [
         "#E5E5E5",
         "#D9FFFF",
@@ -466,6 +547,16 @@
         "#F40009",
         "#D00028",
         "#AC0047",
+        "#0000FF"
+    ],
+    "Green-orange-pink": [
+        "#64BE50",
+        "#E1E11E",
+        "#FFB400",
+        "#FF7800",
+        "#F01400",
+        "#8C001E",
+        "#FF14FF",
         "#0000FF"
     ],
     "Sea_temperature": [
@@ -648,6 +739,11 @@
         "#FF7000",
         "#FF4D00",
         "#FF0000"
+    ],
+    "Yellow-orange_small": [
+        "#FFFF00",
+        "#FFAF00",
+        "#FF7D07"
     ],
     "Standard_dark": [
         "#1E50D2",
@@ -849,6 +945,14 @@
         "#FF0000",
         "#B40000"
     ],
+    "ggyyrr": [
+        "#45E152",
+        "#00C800",
+        "#FFFF00",
+        "#FFBF00",
+        "#FF7C17",
+        "#B40000"
+    ],
     "Green_blue_purple": [
         "#4BF654",
         "#01FFEC",
@@ -939,6 +1043,12 @@
     "Yellow_Orange_icing": [
         "#FFFF00",
         "#FF8728"
+    ],
+    "K_index": [
+        "#82C86D",
+        "#6DAF53",
+        "#408723",
+        "#287314"
     ],
     "haline": [
         "#2a186c",

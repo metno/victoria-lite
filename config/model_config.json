@@ -78,7 +78,6 @@
             },
             "T2": {
                 "title": "Air temperature at 2m",
-                "style_category": "temperature_C",
                 "unit_conversion": {
                     "scale": 1.0,
                     "offset": -273.15
