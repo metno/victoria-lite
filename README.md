@@ -265,6 +265,8 @@ $ python convert_wrf_to_cf.py "wrfout_d01*" "<out-file-name>.nc"
 
 You can then use the output NetCDF file as normal with the Victoria configuration.
 
+Pressure-level interpolation is enabled by `INTERPOLATE_TO_PRESSURE_LEVELS = True` in the conversion script. Temperature, relative humidity, and winds are interpolated to `PRESSURE_LEVELS_HPA` (1000, 850, 700, 500, and 200 hPa); pressure-level wind vectors use `wind_east_pl` and `wind_north_pl`. Setting the switch to `False` adds temperature and relative humidity on the existing model-level `z` coordinate instead; use `wind_east` and `wind_north` for model-level wind vectors in that case. Mean sea-level pressure and the MCAPE, MCIN, LCL, and LFC diagnostics remain horizontal fields at each time.
+
 Depending on the size of the model files, conversion can take some time and storage space. If you want to save time and/or disk space, you can adapt the conversion script to select or drop variables from the xarray dataset as needed. If you do this, make sure all relevant coordinate variables and grid mappings are kept in the resulting xarray dataset.
 
 ### Adding new styles and customising existing styles

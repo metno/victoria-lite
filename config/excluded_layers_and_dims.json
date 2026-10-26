@@ -11,6 +11,7 @@
         "SNC"
     ],
     "spatial_and_time_dims": [
+        "Time",
         "time",
         "x",
         "y",

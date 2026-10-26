@@ -29,8 +29,8 @@
         ],
         "vector_fields": {
             "wind_model_vector": {
-                "x": "wind_east",
-                "y": "wind_north",
+                "x": "wind_east_pl",
+                "y": "wind_north_pl",
                 "long_name": "Wind Vector",
                 "units": "m/s"
             },

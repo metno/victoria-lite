@@ -23,7 +23,7 @@ from netCDF4 import Dataset
 from wrf import ALL_TIMES, getvar, interplevel
 
 PRESSURE_LEVELS_HPA = [1000, 850, 700, 500, 200]
-INTERPOLATE_TO_PRESSURE_LEVELS = False
+INTERPOLATE_TO_PRESSURE_LEVELS = True
 
 
 def convert_wrf_to_cf(wrf_files_pattern: str, output_file: str):
