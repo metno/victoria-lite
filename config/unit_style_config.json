@@ -7343,6 +7343,26 @@
             ],
             "palette": "Temperature_cold_warm"
         },
+        "Temperature_warm": {
+            "gradient": true,
+            "discrete": true,
+            "intervals": [
+                -999999999,
+                15,
+                17,
+                19,
+                21,
+                23,
+                25,
+                27,
+                29,
+                31,
+                33,
+                35,
+                999999999
+            ],
+            "palette": "Warm"
+        },
         "Value_blue": {
             "value": true,
             "palette": [

@@ -1,0 +1,39 @@
+{
+    "Tanzania": {
+        "title": "Tanzania",
+        "format": "nc-static",
+        "domain": "Tanzania",
+        "path": "/data/wrfout_d01_2026-02-09_00_00_00_cf.nc",
+        "time_resolution": "PT3H",
+        "variables": [
+            "air_temperature_2m",
+            "air_pressure_at_sea_level",
+            "precipitation_amount_acc"
+        ],
+        "keywords": [
+            "Tanzania",
+            "WRF"
+        ],
+        "vector_fields": {
+            "wind_model_vector": {
+                "x": "U",
+                "y": "V",
+                "long_name": "Wind vector (model levels)",
+                "units": "m/s",
+                "unit_conversion": {
+                    "scale": 1.94384,
+                    "offset": 0.0
+                }
+            },
+            "wind_10m_vector": {
+                "x": "x_wind_10m",
+                "y": "y_wind_10m",
+                "long_name": "Wind vector at 10m",
+                "unit_conversion": {
+                    "scale": 1.94384,
+                    "offset": 0
+                }
+            }
+        }
+    }
+}

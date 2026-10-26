@@ -1,16 +1,58 @@
 {
-    "bris-malawi": {
+    "WRF-Tanzania": {
         "layer_styling": {
-            "air_temperature_2m": {
+            "air_temperature": {
                 "style_category": "temperature_C"
             },
-            "air_pressure_at_sea_level": {
+            "air_pressure": {
                 "style_category": "pressure"
             },
-            "precipitation_amount_acc": {
+            "air_pressure_at_mean_sea_level": {
+                "style_category": "pressure"
+            },
+            "relative_humidity": {
+                "style_category": "relative_humidity"
+            },
+            "mcape": {
+                "style_category": "energy"
+            },
+            "mcin": {
+                "style_category": "energy"
+            },
+            "lcl": {
+                "style_category": "cat_height"
+            },
+            "lfc": {
+                "style_category": "cat_height"
+            },
+            "T2": {
+                "style_category": "temperature_C"
+            },
+            "TACC_PRECIP": {
                 "style_category": "amount"
             },
+            "CLDFRA": {
+                "style_category": "fraction/index/type/percentage"
+            },
+            "TSLB": {
+                "style_category": "temperature_C"
+            },
+            "SMOIS": {
+                "style_category": "percentage"
+            },
+            "S10_MAX": {
+                "style_category": "speed_ms"
+            },
+            "G10_MAX": {
+                "style_category": "speed_ms"
+            },
+            "LPI": {
+                "style_category": "energy"
+            },
             "wind_10m_vector": {
+                "style_category": "wind_barb"
+            },
+            "wind_model_vector": {
                 "style_category": "wind_barb"
             }
         }
