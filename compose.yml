@@ -1,6 +1,6 @@
 services:
   api:
-    image: "ghcr.io/metno/victoria-lite:v2.1.5"
+    image: "ghcr.io/metno/victoria-lite:v2.1.6"
     ports:
       - "8000:8000"
     env_file:
