@@ -1,0 +1,18 @@
+{
+    "bris-malawi": {
+        "layer_styling": {
+            "air_temperature_2m": {
+                "style_category": "temperature_C"
+            },
+            "air_pressure_at_sea_level": {
+                "style_category": "pressure"
+            },
+            "precipitation_amount_acc": {
+                "style_category": "amount"
+            },
+            "wind_10m_vector": {
+                "style_category": "wind_barb"
+            }
+        }
+    }
+}

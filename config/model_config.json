@@ -3,11 +3,6 @@
         "title": "WRF-Vietnam",
         "format": "nc-static",
         "path": "/data/wrfout_combined_cf.nc",
-        "time_config": {
-            "start_time": "2026-01-17T00:00:00",
-            "interval_hours": 6,
-            "duration_hours": 18
-        },
         "variables": [
             "W",
             "Q2",
@@ -78,7 +73,6 @@
             },
             "T2": {
                 "title": "Air temperature at 2m",
-                "style_category": "temperature_C",
                 "unit_conversion": {
                     "scale": 1.0,
                     "offset": -273.15
