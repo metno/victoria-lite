@@ -38,7 +38,7 @@
                 }
             }
         },
-        "style_config": {
+        "layer_config": {
             "W": {
                 "title": "Vertical wind component",
                 "style_category": "vertical_velocity"
@@ -57,7 +57,6 @@
             },
             "air_pressure": {
                 "title": "Air Pressure",
-                "style_category": "pressure",
                 "unit_conversion": {
                     "scale": 0.01,
                     "offset": 0.0
@@ -65,7 +64,6 @@
             },
             "Q2": {
                 "title": "Specific humidity at 2m",
-                "style_category": "specific_humidity",
                 "unit_conversion": {
                     "scale": 1000.0,
                     "offset": 0.0
@@ -80,7 +78,6 @@
             },
             "PSFC": {
                 "title": "Surface pressure",
-                "style_category": "pressure",
                 "unit_conversion": {
                     "scale": 0.01,
                     "offset": 0.0
@@ -88,28 +85,24 @@
             },
             "RAINC": {
                 "title": "Deaccumulated cumulus precipitation",
-                "style_category": "amount",
                 "unit_conversion": {
                     "deaccumulate": true
                 }
             },
             "RAINSH": {
                 "title": "Deaccumulated shallow cumulus precipitation",
-                "style_category": "amount",
                 "unit_conversion": {
                     "deaccumulate": true
                 }
             },
             "RAINNC": {
                 "title": "Deaccumulated grid-scale precipitation",
-                "style_category": "amount",
                 "unit_conversion": {
                     "deaccumulate": true
                 }
             },
             "CLDFRA": {
-                "title": "Cloud fraction",
-                "style_category": "fraction/index/type/percentage"
+                "title": "Cloud fraction"
             }
         },
         "keywords": [
@@ -122,32 +115,17 @@
         "format": "nc-static",
         "domain": "global",
         "projection": "EPSG:4326",
-        "path": "/data/SWAN2026011712.nc",
-        "time_config": {
-            "start_time": "2026-01-17T12:00:00",
-            "interval_hours": 3,
-            "duration_hours": 249
-        },
+        "path": "/data/SWAN2026011700-cf4.nc",
         "variables": [
             "hs",
             "tp"
         ],
-        "style_config": {
+        "layer_config": {
             "hs": {
-                "title": "Significant wave height",
-                "style_category": "wave_height",
-                "unit_conversion": {
-                    "scale": 0.0007629627,
-                    "offset": 25
-                }
+                "title": "Significant wave height"
             },
             "tp": {
-                "title": "Peak wave period",
-                "style_category": "period",
-                "unit_conversion": {
-                    "scale": 0.0007629627,
-                    "offset": 25
-                }
+                "title": "Peak wave period"
             }
         },
         "keywords": [

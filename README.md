@@ -252,18 +252,20 @@ The layer names must match the variables or vector fields in the model config. F
 
 ### WRF NetCDF files
 
-The NetCDF files output by the WRF model do not follow the NetCDF-CF convention, which is what Victoria currently expects. The simplest solution for now is to convert the WRF output files to CF convention. A simple conversion script is included in the repository for this purpose. To use it, you will need a Python environment with `xarray` and `xwrf` installed. To do this with conda, you could run:
+The NetCDF files output by the WRF model do not follow the NetCDF-CF convention, which is what Victoria currently expects. The simplest solution for now is to convert the WRF output files to CF convention. A conversion script is included in the repository. It uses `xarray` and `xwrf` for dataset conversion, and `wrf-python` to calculate mean sea-level pressure and interpolate fields to pressure levels. Create an environment with the required packages using conda:
 ```
-$ conda create -n wrf2cf python=3.12 xarray pyproj xwrf netcdf4 dask
+$ conda create -n wrf2cf -c conda-forge python=3.12 xarray pyproj xwrf netcdf4 dask wrf-python
 $ conda activate wrf2cf
 ```
 
-In this environment, you can then run the Python script. WRF output is usually one NetCDF file per timestep, so you can use a wildcard `*` to select all files you wish to combine. It is important to use quotation marks when using the wildcard.
+In this environment, you can then run the Python script. WRF output is usually one NetCDF file per timestep, so you can use a wildcard `*` to select the original WRF files you wish to combine. It is important to use quotation marks when using the wildcard. Already converted files ending in `.nc` are excluded from the input set.
 ```
 $ python convert_wrf_to_cf.py "wrfout_d01*" "<out-file-name>.nc"
 ```
 
 You can then use the output NetCDF file as normal with the Victoria configuration.
+
+Pressure-level interpolation is enabled by `INTERPOLATE_TO_PRESSURE_LEVELS = True` in the conversion script. Temperature, relative humidity, and winds are interpolated to `PRESSURE_LEVELS_HPA` (1000, 850, 700, 500, and 200 hPa); pressure-level wind vectors use `wind_east_pl` and `wind_north_pl`. Setting the switch to `False` adds temperature and relative humidity on the existing model-level `z` coordinate instead; use `wind_east` and `wind_north` for model-level wind vectors in that case. Mean sea-level pressure and the MCAPE, MCIN, LCL, and LFC diagnostics remain horizontal fields at each time.
 
 Depending on the size of the model files, conversion can take some time and storage space. If you want to save time and/or disk space, you can adapt the conversion script to select or drop variables from the xarray dataset as needed. If you do this, make sure all relevant coordinate variables and grid mappings are kept in the resulting xarray dataset.
 

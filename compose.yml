@@ -1,6 +1,6 @@
 services:
   api:
-    image: "ghcr.io/metno/victoria-lite:v2.1.5"
+    image: "ghcr.io/metno/victoria-lite:v2.1.6"
     ports:
       - "8000:8000"
     env_file:
@@ -29,7 +29,7 @@ services:
     restart: on-failure
 
   mongo:
-    image: "mongo:8.0"
+    image: "mongo:9.0"
     restart: always
     ports:
       - "27017:27017"
@@ -43,7 +43,7 @@ services:
     attach: false
 
   load_config:
-    image: "victoria-maps-api"
+    image: "ghcr.io/metno/victoria-lite:v2.1.6"
     command:
       - /bin/bash
       - -lc

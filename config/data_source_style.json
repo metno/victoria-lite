@@ -1,17 +1,54 @@
 {
-    "bris-malawi": {
+    "WRF-Vietnam": {
         "layer_styling": {
-            "air_temperature_2m": {
+            "W": {
+                "style_category": "vertical_velocity"
+            },
+            "geopotential": {
+                "style_category": "energy"
+            },
+            "air_potential_temperature": {
                 "style_category": "temperature_C"
             },
-            "air_pressure_at_sea_level": {
+            "air_pressure": {
                 "style_category": "pressure"
             },
-            "precipitation_amount_acc": {
+            "Q2": {
+                "style_category": "specific_humidity"
+            },
+            "T2": {
+                "style_category": "temperature_C"
+            },
+            "PSFC": {
+                "style_category": "pressure"
+            },
+            "RAINC": {
                 "style_category": "amount"
+            },
+            "RAINSH": {
+                "style_category": "amount"
+            },
+            "RAINNC": {
+                "style_category": "amount"
+            },
+            "CLDFRA": {
+                "style_category": "fraction/index/type/percentage"
             },
             "wind_10m_vector": {
                 "style_category": "wind_barb"
+            },
+            "wind_model_vector": {
+                "style_category": "wind_barb"
+            }
+        }
+    },
+    "SWAN-Vietnam": {
+        "layer_styling": {
+            "hs": {
+                "style_category": "wave_height"
+            },
+            "tp": {
+                "style_category": "period"
             }
         }
     }
