@@ -29,7 +29,7 @@
                 "style_category": "temperature_C"
             },
             "TACC_PRECIP": {
-                "style_category": "amount"
+                "style_category": "amount_3h"
             },
             "CLDFRA": {
                 "style_category": "fraction/index/type/percentage"
