@@ -5,10 +5,10 @@
                 "style_category": "temperature_C"
             },
             "air_pressure": {
-                "style_category": "pressure"
+                "style_category": "pressure_extra_colors"
             },
             "air_pressure_at_mean_sea_level": {
-                "style_category": "pressure"
+                "style_category": "pressure_extra_colors"
             },
             "relative_humidity": {
                 "style_category": "relative_humidity"
